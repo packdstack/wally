@@ -1,0 +1,149 @@
+﻿Wally 2.4.4
+
+Wally is a Qt4 wallpaper changer, using multiple sources like files, folders, FTP remote folders, Flickr, Yahoo!, Panoramio,
+Ipernity, Photobucket, Buzznet, Picasa, Smugmug, Google, Vladstudio and deviantART images.
+It runs under Linux, Win32, MacOSX and OS/2, and it's available in many languages.
+
+Some features:
+- History support
+- EXIF support
+- Proxy support
+- A lot of wallpaper layouts, independent from window manager's capabilities
+- Save downloaded pictures
+
+Requirements:
+- Qt 4.6.0 or better
+- Libexif 0.6 or better (optional)
+- CMake 2.8 or better (in order to build from sources)
+
+Installation:
+- mkdir build
+- cd build
+- cmake -DCMAKE_BUILD_TYPE=Release ..
+  ( ^^^^^ please type just like you read ^^^^^^^ )
+- make
+- make install (Linux only)
+
+CMake options:
+-DCMAKE_BUILD_TYPE=Release      compile in Release mode
+-DCMAKE_BUILD_TYPE=Debug        compile in Debug mode
+-DSTATIC=1                      link with static libraries (only if Qt4 has been compiled in static mode)
+-DCOMPRESS=1                    compress final executable with UPX (only Win32 and MacOSX)
+
+If you have KDE4, your enviroment will be automatically detected, and WallyPlugin will be installed. Remember to restart KDE4
+(logoff/logon should be enough) in order to use Wally. Then, select WallyPlugin in Appearance Settings. To be clear, WallyPlugin IS NOT Wally.
+It's just a "brigde" between Wally and KDE4, and it must be selected to show Wally images, so Wally has to be started.
+
+Moreover, if you're upgrading KDE4 to KDE 4.4, and you already have WallyPlugin, Plasma can crash, due to binary incompatibilites with
+new Qt/KDE libraries. Just reinstall/recompile Wally.
+
+When launched, Wally places itself in your system tray. Right-click on icon to show main menu.
+In Settings window, just select a module, and add items in the list. Wally will download photos according to your search keywords,
+or use your photos if you're using Files / Folders modules.
+
+Supported Window Managers:
+- Win32
+- MacOSX
+- OS/2
+- KDE3
+- KDE4
+- Gnome
+- GnomeShell
+- XFCE4
+- Fluxbox
+- Blackbox
+- FVWM (unstable)
+- WindowMaker
+
+Please read README.XFCE4 and README.shortcuts for further instructions.
+
+Note for Mac OSX Snow Leopard:
+You must disable "Change Picture" feature, that's in System preferences > Desktop & Screen Saver > Change picture.
+
+
+------------------------------------------------------------------------------------------------------
+
+UPGRADING NOTES:
+
+History database will be upgraded to the new version, in order to save
+more information. All previous records will be tagged "unknown" in history.
+
+
+- only for Wally 1.x
+
+Settings have totally changed, so please uninstall 1.x version removing also settings.
+Under Linux, remove ~/.config/BeCrux/Wally.conf
+
+------------------------------------------------------------------------------------------------------
+
+TRANSLATORS
+
+Let me give special thanks to Wally's translators:
+
+- Me :), English and Italian
+- Татьяна Рубина, Russian
+- Martino Vedana, Spanish
+- Márcio Moraes, Portuguese (Brazil)
+- Klaus-Peter Gores, German
+- Nicolas Remy, French
+- Martin Pavlík, Czech
+- Dominik Szczerba, Polish
+- 御用软件, Chinese
+- Miquel Ràmia, Catalan
+- Θωμάς Τσάβαλος, Greek
+- 이덕희, Korean
+- Michael Borries, Danish
+- Rumán Sándor, Hungarian
+- Recep Çakan, Turkish
+- Andreas Klintemyr, Swedish
+
+
+If you want to add your translation to Wally, you just need:
+
+- Qt Linguist
+- 15 minutes of your life :)
+
+You don't need to be neither a developer, nor to understand Wally's code.
+And, if you need help in using Linguist, just write me.
+
+------------------------------------------------------------------------------------------------------
+
+ACKNOWLEDGEMENTS
+
+Wally has been deeply inspired by John's Background Switcher (http://www.johnsadventures.com/software/backgroundswitcher),
+a great software, well designed and much more capable than Wally. Infact, it's still running on one of my PCs :)
+Anyway, I decided to write Wally for two reasons:
+
+- JBS is based on .NET, a framework that is not installed on every PC, cause of its "heaviness" and system resources' usage.
+- And, mainly, it cannot run on platforms like Linux / MacOSX.
+
+So, I'd like to thank John Conners, for giving me the opportunity to re-use its idea in order to fulfill the universe
+of wallpaper changers not covered by JBS :)
+
+First of all, I'd like to thank Tanya, my wife, for all her support before, during Wally's development and
+after :)
+
+I'd also like to thank:
+
+- for bugs reporting, new ideas and time spent in testing:
+
+  Francesco De Marchi
+  Sylvain Gueniot
+  Oliver Schwabedissen
+  Ferhat Dogru
+  Corrado Guarino Lo Bianco
+  Filippo Venturini
+  Klaus-Peter Gores
+  Mike Cooper
+  Mario R. Carro
+  Serge Sander
+  Martino Vedana
+  Mirko Bianco
+  Elbert Pol
+  Alex Roma
+
+
+- Photobucket staff, for support and promoting.
+
+Any contribution or suggestion will be appreciated.
+Write me at tony@becrux.com for help.

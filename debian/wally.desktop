@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Wally
+Comment=Qt4 wallpaper changer
+Exec=/usr/bin/wally
+Icon=wally.xpm
+Terminal=false
+Type=Application
+Categories=Utility;Qt;DesktopSettings;

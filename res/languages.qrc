@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/languages" >
+        <file alias="italian" >${CMAKE_CURRENT_BINARY_DIR}/wally_it.qm</file>
+        <file alias="russian" >${CMAKE_CURRENT_BINARY_DIR}/wally_ru.qm</file>
+        <file alias="french" >${CMAKE_CURRENT_BINARY_DIR}/wally_fr.qm</file>
+        <file alias="german" >${CMAKE_CURRENT_BINARY_DIR}/wally_de.qm</file>
+        <file alias="spanish" >${CMAKE_CURRENT_BINARY_DIR}/wally_es.qm</file>
+        <file alias="brazilian_portuguese" >${CMAKE_CURRENT_BINARY_DIR}/wally_pt_BR.qm</file>
+        <file alias="czech" >${CMAKE_CURRENT_BINARY_DIR}/wally_cz.qm</file>
+        <file alias="polish" >${CMAKE_CURRENT_BINARY_DIR}/wally_pl.qm</file>
+        <file alias="chinese" >${CMAKE_CURRENT_BINARY_DIR}/wally_zh_CN.qm</file>
+        <file alias="catalan" >${CMAKE_CURRENT_BINARY_DIR}/wally_ca.qm</file>
+        <file alias="greek" >${CMAKE_CURRENT_BINARY_DIR}/wally_gr.qm</file>
+        <file alias="korean" >${CMAKE_CURRENT_BINARY_DIR}/wally_kr.qm</file>
+        <file alias="hungarian" >${CMAKE_CURRENT_BINARY_DIR}/wally_hu.qm</file>
+        <file alias="danish" >${CMAKE_CURRENT_BINARY_DIR}/wally_dk.qm</file>
+        <file alias="swedish" >${CMAKE_CURRENT_BINARY_DIR}/wally_se.qm</file>
+        <file alias="turkish" >${CMAKE_CURRENT_BINARY_DIR}/wally_tr.qm</file>
+    </qresource>
+</RCC>

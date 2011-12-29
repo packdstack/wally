@@ -1,0 +1,4 @@
+Wally XFCE4
+
+In order to activate Wally with XFCE, just enter the file ${HOME}/.config/xfce4/desktop/backdrops.list in your XFCE Desktop configuration.
+Wally will change this file periodically, and so xfdesktop can load the image file.

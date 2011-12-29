@@ -1,0 +1,181 @@
+Version 2.4.4
+- Fixed gconftool-2 arguments bug
+- Settings window layout is now suitable for netbook screens
+
+Version 2.4.3
+- Fixed GnomeShell background change issue
+- Added Swedish language
+- Added Turkish language
+
+Version 2.4.2
+- Added GnomeShell support
+- Added Hungarian language
+- Added Danish language
+- Removed Pikeo module, it is no longer active
+- Removed Bing module, M$ didn't accept Wally's way of using Bing
+
+Version 2.4.1
+- Deprecated HTTP Qt classes have been replaced
+- Wally can now terminate after first background change
+- Splash screen can be disabled
+- Mac OSX Settings GUI scrollbar issue fixed
+- WallyPlugin now uses D-Bus
+- BUG FIXED: CMake build script had an issue in compiling language resources
+
+Version 2.4
+- Added OS/2 support
+- Added Snow Leopard support
+- Added Google module
+- Added deviantART module
+- Added Vladstudio module
+- Added Korean language
+- Folder module now supports symbolic links
+- More photo layouts on desktop have been added
+- BUG FIXED: Panoramio no longer crashes when empty results are returned
+- BUG FIXED: Disclaimer translation is now properly applied at boot
+- BUG FIXED: Centered auto-fit was not always applied correctly
+- BUG FIXED: HTTP engine rarely got stuck
+
+Version 2.3.2
+- Double-clicking icon in system tray advances on next photo
+- Improved duplicated photo detection
+- Added Catalan language
+- Added Greek language
+- Added disclaimer to be accepted on first start of Wally
+- Removed QtScript dependency, JSON parser has been implemented internally (Qt 4.6 compatibility)
+- Run-time folder change detection has been removed from "Folders" module, its use is too resource consuming
+- BUG FIXED: search issues occurred when using multiple tags/keywords
+- BUG FIXED: EXIF information are now showed correctly when non-Latin1 characters in filename path are used
+- BUG FIXED: KDE 4.4 SC was not properly detected
+- BUG FIXED: Panoramio was working only with "Original" sized images
+
+Version 2.3.1
+- Added Chinese language
+- Added Polish language
+- Active Desktop is now detected, and error is reported
+- Photo filename is used when title is not available
+- XFCE detection improved
+- BUG FIXED: GUI bug in proxy selection form
+- BUG FIXED: Panoramio coordinates are checked after input terminates
+- BUG FIXED: buggy behaviour in MacOSX, Folders module, when too many files are present in specified directories
+
+Version 2.3.0
+- Added French language
+- Added Czech language
+- Wally can now display wallpapers behind toolbars and docks, using full screen space
+- Time period can now be shortened up to 10 seconds
+- Automatic border color feature has been added
+- BUG FIXED: history data is not stored anymore when Cancel is pressed
+- BUG FIXED: HTTP download does not get stuck anymore if HTTP response is wrong
+- BUG FIXED: HTTP download in history window does not get stuck anymore at 99%, cause of a QProgressDialog conflict
+- BUG FIXED: history viewer misbehaviours have been fixed
+- BUG FIXED: Panoramio items save state correctly now
+- BUG FIXED: map selection issues in Panoramio items have been fixed
+- BUG FIXED: MacOSX Info.plist fixed
+- BUG FIXED: regression bug about free disk space check has been fixed
+
+Version 2.2.0
+- Added selection on map for Panoramio items configuration
+- History window has been improved, more informations for each item and filter by tags have been added
+- Added Bing module
+- EXIF support improved. Information window has been added, and EXIF is stored in history.
+- BUG FIXED: wrong GUI behaviour in HTTP items when setting photos path, now fixed
+- BUG FIXED: wrong GUI behaviour on proxy server selection, now fixed
+- BUG FIXED: duplicated items are not accepted anymore
+- BUG FIXED: now asks HTTP server first if download is recoverable
+- BUG FIXED: segfault no longer happens when GIF/PNG/no-EXIF-compatible photo is downloaded
+- BUG FIXED: consecutive downloads of the same photo are not allowed anymore
+- BUG FIXED: X shortcuts for older WMs weren't updated to current features
+
+Version 2.1.0
+- Added system proxy support
+- Added History feature
+- Modules can be disabled/enabled
+- Added Picasa module
+- Added Smugmug module
+- Added Buzznet module
+- HTTP engine can now recover downloads
+- More cosmetic changes
+- Free disk space threshold can be configured
+- Multiple items in HTTP engines can be selected
+- BUG FIXED: state in Folders engine is now properly saved
+- BUG FIXED: playlist is now reset correctly after wrap
+
+Version 2.0.3
+- BUG FIXED: MacOSX script for wallpaper change now works properly
+- BUG FIXED: Color button is now showed correctly with all GUI styles
+- BUG FIXED: "About" dialog now can be closed under MacOSX
+- BUG FIXED: empty "Remote folder" items are now correctly rejected
+- BUG FIXED: Wally's single instance in MacOSX is now properly detected
+- BUG FIXED: annoying issues with KDE4 WallyPlugin have been solved (at the end!!!)
+- Some cosmetic changes
+
+Version 2.0.2
+- BUG FIXED: empty items are now discarded
+- BUG FIXED: single instance in Linux now is checked using file PID, thus avoiding false positives
+- BUG FIXED: only available free space on desktop is used
+- BUG FIXED: Pikeo now resets page count search after an empty result
+- Free disk space (at least 20 megs) is checked for availability before saving photos
+- EXIF tags are analyzed in every plugin, and corrections are applied where needed
+- Photobucket has no throttle limit anymore, watermark on photo is applied
+- More code restyling
+- Fixed plural form in translations
+- Added Portuguese (Brazil) translation
+- Window manager can be forced at command line (Linux only)
+- WallyPlugin: D-BUS is not used anymore
+- WallyPlugin: KDE message will appear at end of installation, remembering of KDE4 Plasma restart
+- Removed QCA dependency
+- Application data folder is now more S.O. "friendly" under Win32 and MacOSX
+
+Version 2.0.1
+- WallyPlugin BUG FIXED: plugin is now compiled without debug information
+- WallyPlugin BUG FIXED: D-BUS access rights are now setup correctly
+- WallyPlugin BUG FIXED: installation paths are now detected properly
+
+Version 2.0.0
+- Wally's engine has been totally rewritten, for better stability and
+  better coding structure in plugins' development
+- UI partial restyling and improvement
+- KDE4 support
+- MacOSX support (experimental)
+- FTP remote folders support
+- Multilanguage support (English, Italian, Spanish and Russian)
+- Wally now remembers its last state before termination
+- Bugs fixed all around
+
+
+Version 1.3.2
+- Added configurable GUI style
+- Flickr search pages are how hard-limited, to avoid repeated results
+- Pikeo plugin is now enabled
+- Added "-debug" command line switch for better bugs tracing
+- BUG FIXED: pictures in folder mode now change correctly
+- BUG FIXED: multiple erroneous picture validations are no longer generated
+
+Version 1.3.1
+- BUG FIXED: regression bug about removing rows from configuration has been fixed
+
+Version 1.3.0
+- Added Pixeo plugin (still disabled, EXPERIMENTAL)
+- Added Riya plugin (still disabled, EXPERIMENTAL)
+- About dialog now shows supported images
+- BUG FIXED: Gnome detection now should work
+
+Version 1.2.0
+- Added Panoramio plugin
+- Flickr images are now rotated correctly, if needed
+- BUG FIXED: sending quit immediately before background change doesn't generate a segfault now
+- BUG FIXED: HTTP timeouts now if a transfer takes too long
+- BUG FIXED: internal search is now limited by HTTP result count
+- VERY IMPORTANT BUG FIXED: Play/Pause now works correctly
+
+Version 1.1.0
+- Added Fluxbox support
+- Added Blackbox support
+- Added FVWM support (unstable)
+- Added WindowMaker support
+- BUG FIXED: XFCE4 now works
+- BUG FIXED: "Cancel" command now works when HTTP download is in progress
+
+Version 1.0.0
+- First release

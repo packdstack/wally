@@ -1,0 +1,18 @@
+Source: wally
+Section: utils
+Priority: extra
+Maintainer: Antonio Di Monaco <tony@becrux.com>
+Build-Depends: debhelper (>= 7), cmake, libqt4-dev, libexif-dev, pkg-config, libx11-dev
+Standards-Version: 3.9.2
+Homepage: http://www.becrux.com
+
+Package: wally
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-sql-sqlite
+Description: Qt4 wallpaper changer
+ Wally is a Qt4 wallpaper changer using multiple sources like files,
+ folders, FTP remote folders, Flickr, Yahoo!, Panoramio, Ipernity,
+ Photobucket, Buzznet, Picasa, Smugmug, Google, Vladstudio and
+ deviantART images. It is available in many languages. Supported Linux
+ window managers are GNOME, GnomeShell, KDE3, KDE4, XFCE4, BlackBox,
+ FluxBox, WindowMaker, and FVWM.

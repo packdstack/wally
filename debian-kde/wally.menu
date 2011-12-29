@@ -1,0 +1,1 @@
+?package(wally):needs="X11|vm" section="Apps/Tools" title="Wally" command="/usr/bin/wally" icon="/usr/share/pixmaps/wally.xpm" longtitle="Qt4 wallpaper changer"

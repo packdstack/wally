@@ -1,0 +1,7 @@
+wally (2.4.4-1) stable; urgency=medium
+
+   * Version 2.4.4
+     - Fixed gconftool-2 arguments bug
+     - Settings window layout is now suitable for netbook screens
+
+ -- Antonio Di Monaco <tony@becrux.com>  Wed, 28 Dec 2011 15:00:00 +0100

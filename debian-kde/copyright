@@ -1,0 +1,25 @@
+This package was debianized by Antonio Di Monaco <tony@becrux.com> on
+Tue, 10 Nov 2009 18:20:00 +0100.
+
+It was downloaded from http://www.becrux.com
+
+Upstream Author(s):
+
+    Antonio Di Monaco <tony@becrux.com>
+
+Copyright:
+
+    Copyright (C) 2009 Antonio Di Monaco
+
+License:
+
+    Wally is copyright 2009, Antonio Di Monaco <tony@becrux.com> and
+    is licensed under the GPL, see `/usr/share/common-licenses/GPL-2'.
+
+    The Debian packaging is copyright 2009, Antonio Di Monaco <tony@becrux.com> and
+    is licensed under the GPL, see `/usr/share/common-licenses/GPL-2'.
+
+Packaging:
+
+    Copyright (C) 2009 by Antonio Di Monaco <tony@becrux.com>
+    released under GPL, see `/usr/share/common-licenses/GPL-2'.

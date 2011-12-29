@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=WallyPlugin
+Type=Service
+Icon=wallyplugin
+ServiceTypes=Plasma/Wallpaper
+X-KDE-Library=plasma_wallpaper_wallyplugin
+X-KDE-PluginInfo-Author=Antonio Di Monaco
+X-KDE-PluginInfo-Email=tony@becrux.com
+X-KDE-PluginInfo-Name=wallyplugin
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=http://www.becrux.com/
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true

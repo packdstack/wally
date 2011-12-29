@@ -1,0 +1,15 @@
+Wally Shortcuts
+
+When system tray icon is not available (i.e., with WindowMaker, Blackbox and FVWM), Wally can be controlled via global shortcuts.
+
+Here's the map:
+
+CTRL + Shift + A -> About window
+CTRL + Shift + S -> Show settings window
+CTRL + Shift + N -> Next picture
+CTRL + Shift + Q -> Quit
+CTRL + Shift + D -> Save current image
+CTRL + Shift + P -> Play/Pause
+CTRL + Shift + I -> Get EXIF Info
+CTRL + Shift + H -> History
+CTRL + Shift + W -> Explore image source
