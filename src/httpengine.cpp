@@ -386,7 +386,7 @@ void Core::download()
   Operation op = Get;
   QUrl url(qobject_cast<Item *> (list.at(currentItemIndex))->prepareDownload(op));
 
-  httpFile = tempStorageDir() + "/" + QFileInfo(url.path()).fileName();
+  httpFile = tempStorageDir() + "/images/" + QFileInfo(url.path()).fileName();
 
   qDebug() << name().toAscii().constData() << "::Core::download()";
   qDebug() << "\tURL: "

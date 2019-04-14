@@ -1347,6 +1347,7 @@ void Application::initializeDB()
 
   db = QSqlDatabase::addDatabase("QSQLITE");
   QDir(_tempStorageDir).mkdir("thumbs");
+  QDir(_tempStorageDir).mkdir("images");
   db.setDatabaseName(_tempStorageDir + "/thumbs/wally.db");
   if (db.open())
   {
