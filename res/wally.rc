@@ -1,8 +1,8 @@
 #include "winver.h"
 IDI_ICON1 ICON DISCARDABLE "res/images/wally.ico"
 VS_VERSION_INFO VERSIONINFO
-FILEVERSION 2,4,4,0
-PRODUCTVERSION 2,4,4,0
+FILEVERSION 2,4,5,0
+PRODUCTVERSION 2,4,5,0
 FILEOS VOS__WINDOWS32
 FILETYPE VFT_APP
 FILESUBTYPE 0
@@ -13,14 +13,14 @@ FILESUBTYPE 0
     {
       VALUE "CompanyName",      "BeCrux, http://www.becrux.com"
       VALUE "FileDescription",  "Wally - Qt4 Wallpaper Changer"
-      VALUE "FileVersion",      "2.4.4"
+      VALUE "FileVersion",      "2.4.5"
       VALUE "InternalName",     "Wally"
       VALUE "LegalCopyright",   "GNU GPLv2 BeCrux 2009"
       VALUE "LegalTrademarks1", ""
       VALUE "LegalTrademarks2", ""
       VALUE "OriginalFilename", "wally.exe"
       VALUE "ProductName",      "Wally"
-      VALUE "ProductVersion",   "2.4.4"
+      VALUE "ProductVersion",   "2.4.5"
     }
   }
 

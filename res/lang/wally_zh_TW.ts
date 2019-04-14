@@ -1,172 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="es">
+<TS version="2.0" language="zh_TW">
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../../ui/about.ui" line="165"/>
-        <source>Supported image formats:</source>
-        <translation>Formatos de imágenes soportadas:</translation>
-    </message>
-    <message>
-        <location filename="../../ui/about.ui" line="6"/>
-        <source>About Wally</source>
-        <translation>Acerca de Wally</translation>
-    </message>
-    <message>
-        <location filename="../../ui/about.ui" line="94"/>
-        <source>Details &gt;&gt;</source>
-        <translation>Detalies &gt;&gt;</translation>
-    </message>
-    <message>
         <location filename="../../src/about.cpp" line="47"/>
         <source>Compiled with:</source>
-        <translation>Compilado con:</translation>
+        <translation>編譯:</translation>
     </message>
     <message>
         <location filename="../../src/about.cpp" line="49"/>
         <source>EXIF library:</source>
-        <translation>Biblioteca EXIF:</translation>
+        <translation>EXIF 函式庫:</translation>
     </message>
     <message>
         <location filename="../../src/about.cpp" line="52"/>
         <source>present</source>
-        <translation>presente</translation>
+        <translation>存在</translation>
     </message>
     <message>
         <location filename="../../src/about.cpp" line="54"/>
         <source>not present</source>
-        <translation>no presente</translation>
-    </message>
-    <message>
-        <location filename="../../src/about.cpp" line="74"/>
-        <source>Chinese (Simplified)</source>
-        <translation>Chino (Simplificado)</translation>
-    </message>
-    <message>
-        <location filename="../../src/about.cpp" line="76"/>
-        <source>Chinese (Traditional)</source>
-        <translation>Chino (Tradicional)</translation>
-    </message>
-    <message>
-        <location filename="../../src/about.cpp" line="78"/>
-        <source>Polish</source>
-        <translation>Polaco</translation>
-    </message>
-    <message>
-        <location filename="../../src/about.cpp" line="80"/>
-        <source>Catalan</source>
-        <translation>Catalán</translation>
-    </message>
-    <message>
-        <location filename="../../src/about.cpp" line="82"/>
-        <source>Greek</source>
-        <translation>Griego</translation>
-    </message>
-    <message>
-        <location filename="../../src/about.cpp" line="84"/>
-        <source>Korean</source>
-        <translation>Koreano</translation>
-    </message>
-    <message>
-        <location filename="../../src/about.cpp" line="86"/>
-        <source>Hungarian</source>
-        <translation>Húngaro</translation>
-    </message>
-    <message>
-        <location filename="../../src/about.cpp" line="88"/>
-        <source>Danish</source>
-        <translation>Danés</translation>
-    </message>
-    <message>
-        <location filename="../../src/about.cpp" line="90"/>
-        <source>Swedish</source>
-        <translation>Sueco</translation>
-    </message>
-    <message>
-        <location filename="../../src/about.cpp" line="92"/>
-        <source>Turkish</source>
-        <translation>Turco</translation>
-    </message>
-    <message>
-        <location filename="../../ui/about.ui" line="104"/>
-        <source>Close</source>
-        <translation>Cerrar</translation>
-    </message>
-    <message>
-        <location filename="../../ui/about.ui" line="152"/>
-        <source>Extension</source>
-        <translation>Extensión</translation>
-    </message>
-    <message>
-        <location filename="../../ui/about.ui" line="157"/>
-        <source>Description</source>
-        <translation>Descripción</translation>
-    </message>
-    <message>
-        <location filename="../../ui/about.ui" line="172"/>
-        <source>Additional info:</source>
-        <translation>Informaciónes adicionales:</translation>
-    </message>
-    <message>
-        <location filename="../../ui/about.ui" line="244"/>
-        <source>Language</source>
-        <translation>Idioma</translation>
-    </message>
-    <message>
-        <location filename="../../ui/about.ui" line="249"/>
-        <source>Translator</source>
-        <translation>Traductor</translation>
-    </message>
-    <message>
-        <location filename="../../ui/about.ui" line="65"/>
-        <source>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;font size=&quot;+1&quot;&gt;Qt4 desktop wallpaper changer&lt;br /&gt;Author: Antonio Di Monaco (a.k.a. &lt;i&gt;Sin(x) &apos;76&lt;/i&gt;)&lt;br /&gt;I&apos;d like to thank Vincent Willem van Gogh for the logo :)&lt;br /&gt;&lt;br /&gt;Web site: &lt;a href=&quot;http://www.becrux.com&quot;&gt;http://www.becrux.com&lt;/a&gt;&lt;br /&gt;You can contact me at &lt;a href=&quot;mailto:tony@becrux.com?subject=About Wally&quot;&gt;tony@becrux.com&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;font size=&quot;+1&quot;&gt;Conmutador de fondos de escritorio Qt4&lt;br /&gt;Autor: Antonio Di Monaco (a.k.a. &lt;i&gt;Sin(x) &apos;76&lt;/i&gt;)&lt;br /&gt;Agradecimientos a Vincent Willem van Gogh por el logotipo :)&lt;br /&gt;&lt;br /&gt;Sito web: &lt;a href=&quot;http://www.becrux.com&quot;&gt;http://www.becrux.com&lt;/a&gt;&lt;br /&gt;Usted puede contactarme escribiendo a &lt;a href=&quot;mailto:tony@becrux.com?subject=About Wally&quot;&gt;tony@becrux.com&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/about.cpp" line="60"/>
-        <source>Italian</source>
-        <translation>Italiano</translation>
+        <translation>不存在</translation>
     </message>
     <message>
         <location filename="../../src/about.cpp" line="58"/>
         <source>English</source>
-        <translation>Inglés</translation>
+        <translation>英文</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="60"/>
+        <source>Italian</source>
+        <translation>義大利</translation>
     </message>
     <message>
         <location filename="../../src/about.cpp" line="62"/>
         <source>Russian</source>
-        <translation>Ruso</translation>
+        <translation>俄文</translation>
     </message>
     <message>
         <location filename="../../src/about.cpp" line="64"/>
         <source>Spanish</source>
-        <translation>Español</translation>
+        <translation>西班牙</translation>
     </message>
     <message>
         <location filename="../../src/about.cpp" line="66"/>
         <source>Portuguese (Brazil)</source>
-        <translation>Portugués (Brasil)</translation>
+        <translation>葡萄牙（巴西）</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="74"/>
+        <source>Chinese (Simplified)</source>
+        <translation>中國 (簡體)</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="76"/>
+        <source>Chinese (Traditional)</source>
+        <translation>中國 (繁體)</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="78"/>
+        <source>Polish</source>
+        <translation>波蘭</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="80"/>
+        <source>Catalan</source>
+        <translation>加泰隆</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="82"/>
+        <source>Greek</source>
+        <translation>希臘</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="84"/>
+        <source>Korean</source>
+        <translation>韓文</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="86"/>
+        <source>Hungarian</source>
+        <translation>匈牙利</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="88"/>
+        <source>Danish</source>
+        <translation>丹麥</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="90"/>
+        <source>Swedish</source>
+        <translation>瑞典</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="92"/>
+        <source>Turkish</source>
+        <translation>土耳其</translation>
     </message>
     <message>
         <location filename="../../src/about.cpp" line="68"/>
         <source>German</source>
-        <translation>Alemán</translation>
+        <translation>德文</translation>
     </message>
     <message>
         <location filename="../../src/about.cpp" line="70"/>
         <source>French</source>
-        <translation>Francés</translation>
+        <translation>法文</translation>
     </message>
     <message>
         <location filename="../../src/about.cpp" line="72"/>
         <source>Czech</source>
-        <translation>Checo</translation>
+        <translation>捷克</translation>
+    </message>
+    <message>
+        <location filename="../../ui/about.ui" line="6"/>
+        <source>About Wally</source>
+        <translation>關於 Wally</translation>
+    </message>
+    <message>
+        <location filename="../../ui/about.ui" line="65"/>
+        <source>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;font size=&quot;+1&quot;&gt;Qt4 desktop wallpaper changer&lt;br /&gt;Author: Antonio Di Monaco (a.k.a. &lt;i&gt;Sin(x) &apos;76&lt;/i&gt;)&lt;br /&gt;I&apos;d like to thank Vincent Willem van Gogh for the logo :)&lt;br /&gt;&lt;br /&gt;Web site: &lt;a href=&quot;http://www.becrux.com&quot;&gt;http://www.becrux.com&lt;/a&gt;&lt;br /&gt;You can contact me at &lt;a href=&quot;mailto:tony@becrux.com?subject=About Wally&quot;&gt;tony@becrux.com&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translatorcomment>Is Qt4 desktop wallpaper untranslatable? %Done</translatorcomment>
+        <translation>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;font size=&quot;+1&quot;&gt;Qt4 桌布變換程式&lt;br /&gt;作者: Antonio Di Monaco (a.k.a. &lt;i&gt;Sin(x) &apos;76&lt;/i&gt;)&lt;br /&gt;我非常感謝 Vincent Willem van Gogh 製作 Logo:)&lt;br /&gt;&lt;br /&gt;網站: &lt;a href=&quot;http://www.becrux.com&quot;&gt;http://www.becrux.com&lt;/a&gt;&lt;br /&gt;與我聯絡: &lt;a href=&quot;mailto:tony@becrux.com?subject=About Wally&quot;&gt;tony@becrux.com&lt;/font&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../ui/about.ui" line="94"/>
+        <source>Details &gt;&gt;</source>
+        <translation>詳細訊息 &gt;&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../ui/about.ui" line="104"/>
+        <source>Close</source>
+        <translation>關閉</translation>
+    </message>
+    <message>
+        <location filename="../../ui/about.ui" line="152"/>
+        <source>Extension</source>
+        <translation>副檔名</translation>
+    </message>
+    <message>
+        <location filename="../../ui/about.ui" line="157"/>
+        <source>Description</source>
+        <translation>描述</translation>
+    </message>
+    <message>
+        <location filename="../../ui/about.ui" line="165"/>
+        <source>Supported image formats:</source>
+        <translation>支援的圖檔格式:</translation>
+    </message>
+    <message>
+        <location filename="../../ui/about.ui" line="172"/>
+        <source>Additional info:</source>
+        <translation>其它訊息:</translation>
+    </message>
+    <message>
+        <location filename="../../ui/about.ui" line="244"/>
+        <source>Language</source>
+        <translation>語言</translation>
+    </message>
+    <message>
+        <location filename="../../ui/about.ui" line="249"/>
+        <source>Translator</source>
+        <translation>譯者</translation>
     </message>
     <message>
         <location filename="../../ui/about.ui" line="257"/>
         <source>Translations:</source>
-        <translation>Traductores:</translation>
+        <translation>翻譯:</translation>
     </message>
 </context>
 <context>
@@ -174,57 +175,57 @@
     <message>
         <location filename="../../src/bing.cpp" line="304"/>
         <source>All of these words</source>
-        <translation>Todas estas palabras</translation>
+        <translation>全部關鍵詞</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="305"/>
         <source>Any of these words</source>
-        <translation>Cualquiera de estas palabras</translation>
+        <translation>任意關鍵詞</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="308"/>
         <source>Search for:</source>
-        <translation>Buscar:</translation>
+        <translation>搜尋:</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="314"/>
         <source>Strict</source>
-        <translation>Elevado</translation>
+        <translation>精確</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="315"/>
         <source>Moderate</source>
-        <translation>Moderado</translation>
+        <translation>中等</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="316"/>
         <source>Off</source>
-        <translation>Desactivado</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="319"/>
         <source>Adult filter:</source>
-        <translation>Filtro para adultos:</translation>
+        <translation>成人內容過濾:</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="342"/>
         <source>Bing item</source>
-        <translation>Objeto Bing</translation>
+        <translation>Bing 項目</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="343"/>
         <source>Unfiltered content can show offending or sexual explicit photos</source>
-        <translation>Los contenidos no filtrados pueden mostrar fotos ofencivas o sexualmente explicitas</translation>
+        <translation>未過濾的內容可能會顯示冒犯或色情照片</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="354"/>
         <source>Edit Bing item</source>
-        <translation>Modificar objeto Bing</translation>
+        <translation>編輯 Bing 項目</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="361"/>
         <source>Add Bing item</source>
-        <translation>Añadir un objeto Bing</translation>
+        <translation>新增 Bing 項目</translation>
     </message>
 </context>
 <context>
@@ -232,37 +233,37 @@
     <message>
         <location filename="../../src/bing.cpp" line="56"/>
         <source>Tags:</source>
-        <translation>Etiquetas:</translation>
+        <translation>標籤:</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="58"/>
         <source>and</source>
-        <translation>y</translation>
+        <translation>並且</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="58"/>
         <source>or</source>
-        <translation>o</translation>
+        <translation>或者</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="59"/>
         <source>Adult filter:</source>
-        <translation>Filtro para adultos:</translation>
+        <translation>成人內容過濾:</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="64"/>
         <source>Off</source>
-        <translation>Desactivado</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="68"/>
         <source>Moderate</source>
-        <translation>Moderado</translation>
+        <translation>中等</translation>
     </message>
     <message>
         <location filename="../../src/bing.cpp" line="73"/>
         <source>Strict</source>
-        <translation>Elevado</translation>
+        <translation>精確</translation>
     </message>
 </context>
 <context>
@@ -270,17 +271,17 @@
     <message>
         <location filename="../../src/buzznet.cpp" line="225"/>
         <source>Search for:</source>
-        <translation>Buscar:</translation>
+        <translation>搜尋:</translation>
     </message>
     <message>
         <location filename="../../src/buzznet.cpp" line="248"/>
         <source>Edit Buzznet item</source>
-        <translation>Modificar objeto Buzznet</translation>
+        <translation>編輯 Buzznet 項目</translation>
     </message>
     <message>
         <location filename="../../src/buzznet.cpp" line="253"/>
         <source>Add Buzznet item</source>
-        <translation>Añadir un objeto Buzznet</translation>
+        <translation>新增 Buzznet 項目</translation>
     </message>
 </context>
 <context>
@@ -288,7 +289,7 @@
     <message>
         <location filename="../../src/buzznet.cpp" line="42"/>
         <source>Tag:</source>
-        <translation>Etiqueta:</translation>
+        <translation>標籤:</translation>
     </message>
 </context>
 <context>
@@ -296,42 +297,42 @@
     <message>
         <location filename="../../src/deviantart.cpp" line="247"/>
         <source>Search for:</source>
-        <translation>Buscar:</translation>
+        <translation>搜尋:</translation>
     </message>
     <message>
         <location filename="../../src/deviantart.cpp" line="252"/>
         <source>Strict</source>
-        <translation>Elevado</translation>
+        <translation>精確</translation>
     </message>
     <message>
         <location filename="../../src/deviantart.cpp" line="253"/>
         <source>Off</source>
-        <translation>Desactivado</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../../src/deviantart.cpp" line="256"/>
         <source>Adult filter:</source>
-        <translation>Filtro para adultos:</translation>
+        <translation>成人內容過濾:</translation>
     </message>
     <message>
         <location filename="../../src/deviantart.cpp" line="277"/>
         <source>deviantART item</source>
-        <translation>Objecto deviantART</translation>
+        <translation>deviantART 項目</translation>
     </message>
     <message>
         <location filename="../../src/deviantart.cpp" line="278"/>
         <source>Unfiltered content can show offending or sexual explicit photos</source>
-        <translation>Los contenidos no filtrados pueden mostrar fotos ofencivas o sexualmente explicitas</translation>
+        <translation>未過濾的內容可能會顯示冒犯或色情照片</translation>
     </message>
     <message>
         <location filename="../../src/deviantart.cpp" line="289"/>
         <source>Edit deviantART item</source>
-        <translation>Modificar objeto deviantART</translation>
+        <translation>編輯 deviantART 項目</translation>
     </message>
     <message>
         <location filename="../../src/deviantart.cpp" line="295"/>
         <source>Add deviantART item</source>
-        <translation>Añadir un objeto deviantART</translation>
+        <translation>新增 deviantART 項目</translation>
     </message>
 </context>
 <context>
@@ -339,22 +340,22 @@
     <message>
         <location filename="../../src/deviantart.cpp" line="43"/>
         <source>Tag:</source>
-        <translation>Etiqueta:</translation>
+        <translation>標籤:</translation>
     </message>
     <message>
         <location filename="../../src/deviantart.cpp" line="44"/>
         <source>Adult filter:</source>
-        <translation>Filtro para adultos:</translation>
+        <translation>成人內容過濾:</translation>
     </message>
     <message>
         <location filename="../../src/deviantart.cpp" line="49"/>
         <source>Off</source>
-        <translation>Desactivado</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../../src/deviantart.cpp" line="54"/>
         <source>Strict</source>
-        <translation>Elevado</translation>
+        <translation>精確</translation>
     </message>
 </context>
 <context>
@@ -362,22 +363,22 @@
     <message>
         <location filename="../../src/exif.cpp" line="260"/>
         <source>EXIF information</source>
-        <translation>Información EXIF</translation>
+        <translation>EXIF 訊息</translation>
     </message>
     <message>
         <location filename="../../src/exif.cpp" line="274"/>
         <source>Tag</source>
-        <translation>Etiqueta</translation>
+        <translation>標籤</translation>
     </message>
     <message>
         <location filename="../../src/exif.cpp" line="275"/>
         <source>Value</source>
-        <translation>Valor</translation>
+        <translation>值</translation>
     </message>
     <message>
         <location filename="../../src/exif.cpp" line="298"/>
         <source>No EXIF information available</source>
-        <translation>Información EXIF no disponible</translation>
+        <translation>没有可用的 EXIF 訊息</translation>
     </message>
 </context>
 <context>
@@ -385,7 +386,7 @@
     <message>
         <location filename="../../src/files.cpp" line="145"/>
         <source>Loading folder...</source>
-        <translation>Cargando carpeta...</translation>
+        <translation>正在載入資料夾...</translation>
     </message>
 </context>
 <context>
@@ -393,7 +394,7 @@
     <message>
         <location filename="../../src/files.cpp" line="261"/>
         <source>No preview available</source>
-        <translation>Vista previa no disponible</translation>
+        <translation>没有可用的預覽</translation>
     </message>
 </context>
 <context>
@@ -402,13 +403,13 @@
         <location filename="../../src/files.cpp" line="281"/>
         <location filename="../../src/files.cpp" line="334"/>
         <source>Select a photo</source>
-        <translation>Seleccionar una foto</translation>
+        <translation>選擇圖片</translation>
     </message>
     <message>
         <location filename="../../src/files.cpp" line="297"/>
         <location filename="../../src/files.cpp" line="302"/>
         <source>Select a folder</source>
-        <translation>Seleccionar una carpeta</translation>
+        <translation>選擇資料夾</translation>
     </message>
 </context>
 <context>
@@ -416,32 +417,32 @@
     <message>
         <location filename="../../ui/files.ui" line="15"/>
         <source>Photos</source>
-        <translation>Fotos</translation>
+        <translation>圖片</translation>
     </message>
     <message>
         <location filename="../../ui/files.ui" line="39"/>
         <source>Add a photo</source>
-        <translation>Añadir una foto</translation>
+        <translation>新增一張圖片</translation>
     </message>
     <message>
         <location filename="../../ui/files.ui" line="59"/>
         <source>Add photos in folder</source>
-        <translation>Añadir fotos a la carpeta</translation>
+        <translation>在資料夾中新增圖片</translation>
     </message>
     <message>
         <location filename="../../ui/files.ui" line="82"/>
         <source>Delete photo</source>
-        <translation>Eliminar la foto</translation>
+        <translation>刪除圖片</translation>
     </message>
     <message>
         <location filename="../../ui/files.ui" line="118"/>
         <source>Move photo up</source>
-        <translation>Mover la foto arriba</translation>
+        <translation>上移圖片</translation>
     </message>
     <message>
         <location filename="../../ui/files.ui" line="141"/>
         <source>Move photo down</source>
-        <translation>Mover la foto abajo</translation>
+        <translation>下移圖片</translation>
     </message>
 </context>
 <context>
@@ -449,122 +450,122 @@
     <message>
         <location filename="../../src/flickr.cpp" line="395"/>
         <source>All of these words</source>
-        <translation>Todas estas palabras</translation>
+        <translation>全部關鍵詞</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="396"/>
         <source>Any of these words</source>
-        <translation>Cualquiera de estas palabras</translation>
+        <translation>任意關鍵詞</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="400"/>
         <source>Search for:</source>
-        <translation>Buscar:</translation>
+        <translation>搜尋:</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="404"/>
         <source>Full text</source>
-        <translation>Texto</translation>
+        <translation>全文</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="405"/>
         <source>Tags only</source>
-        <translation>Soló etiquetas</translation>
+        <translation>僅標籤</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="413"/>
         <source>Largest</source>
-        <translation>Más grande</translation>
+        <translation>最大的圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="414"/>
         <source>Original</source>
-        <translation>Original</translation>
+        <translation>原圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="415"/>
         <source>Large</source>
-        <translation>Grande</translation>
+        <translation>大圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="416"/>
         <source>Medium</source>
-        <translation>Medio</translation>
+        <translation>中圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="417"/>
         <source>Small</source>
-        <translation>Pequeño</translation>
+        <translation>小圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="418"/>
         <source>Thumbnail</source>
-        <translation>Miniatura</translation>
+        <translation>縮圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="419"/>
         <source>Square</source>
-        <translation>Cuadrado</translation>
+        <translation>正方形</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="420"/>
         <source>Smallest</source>
-        <translation>Más pequeño</translation>
-    </message>
-    <message>
-        <location filename="../../src/flickr.cpp" line="426"/>
-        <source>Relevance</source>
-        <translation>Relevancia</translation>
-    </message>
-    <message>
-        <location filename="../../src/flickr.cpp" line="434"/>
-        <source>Size:</source>
-        <translation>Tamaño:</translation>
-    </message>
-    <message>
-        <location filename="../../src/flickr.cpp" line="436"/>
-        <source>Order:</source>
-        <translation>Orden:</translation>
-    </message>
-    <message>
-        <location filename="../../src/flickr.cpp" line="478"/>
-        <source>Edit Flickr item</source>
-        <translation>Modificar objeto Flickr</translation>
-    </message>
-    <message>
-        <location filename="../../src/flickr.cpp" line="496"/>
-        <source>Add Flickr item</source>
-        <translation>Añadir un objeto Flickr</translation>
+        <translation>最小的圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="425"/>
         <source>Interestingness desc</source>
-        <translation>Interés desc</translation>
+        <translation>興趣度降冪</translation>
+    </message>
+    <message>
+        <location filename="../../src/flickr.cpp" line="426"/>
+        <source>Relevance</source>
+        <translation>相關性</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="427"/>
         <source>Date posted desc</source>
-        <translation>Fecha de publicación desc</translation>
+        <translation>發布日期降冪</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="428"/>
         <source>Date taken desc</source>
-        <translation>Fecha de toma desc</translation>
+        <translation>拍攝日期降冪</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="429"/>
         <source>Interestingness asc</source>
-        <translation>Interés asc</translation>
+        <translation>興趣度升冪</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="430"/>
         <source>Date posted asc</source>
-        <translation>Fecha de publicación asc</translation>
+        <translation>發布日期升冪</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="431"/>
         <source>Date taken asc</source>
-        <translation>Fecha de toma asc</translation>
+        <translation>拍攝日期升冪</translation>
+    </message>
+    <message>
+        <location filename="../../src/flickr.cpp" line="434"/>
+        <source>Size:</source>
+        <translation>大小:</translation>
+    </message>
+    <message>
+        <location filename="../../src/flickr.cpp" line="436"/>
+        <source>Order:</source>
+        <translation>排序:</translation>
+    </message>
+    <message>
+        <location filename="../../src/flickr.cpp" line="478"/>
+        <source>Edit Flickr item</source>
+        <translation>編輯 Flickr 項目</translation>
+    </message>
+    <message>
+        <location filename="../../src/flickr.cpp" line="496"/>
+        <source>Add Flickr item</source>
+        <translation>新增 Flickr 項目</translation>
     </message>
 </context>
 <context>
@@ -572,188 +573,188 @@
     <message>
         <location filename="../../src/flickr.cpp" line="58"/>
         <source>Text:</source>
-        <translation>Texto:</translation>
+        <translation>文本:</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="60"/>
         <source>Tags:</source>
-        <translation>Etiquetas:</translation>
+        <translation>標籤:</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="61"/>
         <source>and</source>
-        <translation>y</translation>
+        <translation>並且</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="62"/>
         <source>or</source>
-        <translation>o</translation>
+        <translation>或者</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="66"/>
         <source>Size:</source>
-        <translation>Tamaño:</translation>
+        <translation>大小:</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="69"/>
         <source>Largest</source>
-        <translation>Más grande</translation>
+        <translation>最大的圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="70"/>
         <source>Original</source>
-        <translation>Original</translation>
+        <translation>原圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="71"/>
         <source>Large</source>
-        <translation>Grande</translation>
+        <translation>大圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="72"/>
         <source>Medium</source>
-        <translation>Medio</translation>
+        <translation>中圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="73"/>
         <source>Small</source>
-        <translation>Pequeño</translation>
+        <translation>小圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="74"/>
         <source>Thumbnail</source>
-        <translation>Miniatura</translation>
+        <translation>縮圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="75"/>
         <source>Square</source>
-        <translation>Cuadrado</translation>
+        <translation>正方形</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="76"/>
         <source>Smallest</source>
-        <translation>Más pequeño</translation>
+        <translation>最小的圖</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="79"/>
         <source>Order:</source>
-        <translation>Orden:</translation>
-    </message>
-    <message>
-        <location filename="../../src/flickr.cpp" line="83"/>
-        <source>Relevance</source>
-        <translation>Relevancia</translation>
+        <translation>排序:</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="82"/>
         <source>Interestingness desc</source>
-        <translation>Interés desc</translation>
+        <translation>興趣度降冪</translation>
+    </message>
+    <message>
+        <location filename="../../src/flickr.cpp" line="83"/>
+        <source>Relevance</source>
+        <translation>相關性</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="84"/>
         <source>Date posted desc</source>
-        <translation>Fecha de publicación desc</translation>
+        <translation>發布日期降冪</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="85"/>
         <source>Date taken desc</source>
-        <translation>Fecha de toma desc</translation>
+        <translation>拍攝日期降冪</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="86"/>
         <source>Interestingness asc</source>
-        <translation>Interés asc</translation>
+        <translation>興趣度升冪</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="87"/>
         <source>Date posted asc</source>
-        <translation>Fecha de publicación asc</translation>
+        <translation>發布日期升冪</translation>
     </message>
     <message>
         <location filename="../../src/flickr.cpp" line="88"/>
         <source>Date taken asc</source>
-        <translation>Fecha de toma asc</translation>
+        <translation>拍攝日期升冪</translation>
     </message>
 </context>
 <context>
     <name>Folders::DialogWidget</name>
     <message>
-        <location filename="../../src/folders.cpp" line="463"/>
-        <source>Include subfolders</source>
-        <translation>Incluir subcarpetas</translation>
-    </message>
-    <message>
-        <location filename="../../src/folders.cpp" line="534"/>
-        <location filename="../../src/folders.cpp" line="539"/>
-        <source>Select a folder</source>
-        <translation>Seleccionar una carpeta</translation>
-    </message>
-    <message>
-        <location filename="../../src/folders.cpp" line="588"/>
-        <source>Edit folder</source>
-        <translation>Modificar la carpeta</translation>
-    </message>
-    <message>
-        <location filename="../../src/folders.cpp" line="614"/>
-        <source>Add folder</source>
-        <translation>Añadir una carpeta</translation>
-    </message>
-    <message>
         <location filename="../../src/folders.cpp" line="447"/>
         <location filename="../../src/folders.cpp" line="456"/>
         <source>Local</source>
-        <translation>Local</translation>
+        <translation>本地</translation>
     </message>
     <message>
         <location filename="../../src/folders.cpp" line="448"/>
         <location filename="../../src/folders.cpp" line="479"/>
         <source>Remote</source>
-        <translation>Remoto</translation>
+        <translation>遠端</translation>
+    </message>
+    <message>
+        <location filename="../../src/folders.cpp" line="463"/>
+        <source>Include subfolders</source>
+        <translation>包含下層資料夾</translation>
     </message>
     <message>
         <location filename="../../src/folders.cpp" line="469"/>
         <source>Folder:</source>
-        <translation>Carpeta:</translation>
+        <translation>資料夾:</translation>
     </message>
     <message>
         <location filename="../../src/folders.cpp" line="488"/>
         <source>Passive</source>
-        <translation>Pasiva</translation>
+        <translation>被動</translation>
     </message>
     <message>
         <location filename="../../src/folders.cpp" line="489"/>
         <source>Active</source>
-        <translation>Activa</translation>
+        <translation>主動</translation>
     </message>
     <message>
         <location filename="../../src/folders.cpp" line="501"/>
         <source>Server:</source>
-        <translation>Servidor:</translation>
+        <translation>伺服器:</translation>
     </message>
     <message>
         <location filename="../../src/folders.cpp" line="503"/>
         <source>Port:</source>
-        <translation>Puerto:</translation>
+        <translation>連接埠:</translation>
     </message>
     <message>
         <location filename="../../src/folders.cpp" line="505"/>
         <source>Transfer mode:</source>
-        <translation>Modo de transefrencia:</translation>
+        <translation>傳輸模式:</translation>
     </message>
     <message>
         <location filename="../../src/folders.cpp" line="507"/>
         <source>Username:</source>
-        <translation>Nombre de usuario:</translation>
+        <translation>使用者名稱:</translation>
     </message>
     <message>
         <location filename="../../src/folders.cpp" line="509"/>
         <source>Password:</source>
-        <translation>Contraseña:</translation>
+        <translation>密碼:</translation>
     </message>
     <message>
         <location filename="../../src/folders.cpp" line="511"/>
         <source>Path:</source>
-        <translation>Ruta:</translation>
+        <translation>路徑:</translation>
+    </message>
+    <message>
+        <location filename="../../src/folders.cpp" line="534"/>
+        <location filename="../../src/folders.cpp" line="539"/>
+        <source>Select a folder</source>
+        <translation>選擇資料夾</translation>
+    </message>
+    <message>
+        <location filename="../../src/folders.cpp" line="588"/>
+        <source>Edit folder</source>
+        <translation>編輯資料夾</translation>
+    </message>
+    <message>
+        <location filename="../../src/folders.cpp" line="614"/>
+        <source>Add folder</source>
+        <translation>新增資料夾</translation>
     </message>
 </context>
 <context>
@@ -761,7 +762,7 @@
     <message>
         <location filename="../../src/folders.cpp" line="149"/>
         <source>(with subfolders)</source>
-        <translation>(con subcarpetas)</translation>
+        <translation>(包含下層資料夾)</translation>
     </message>
 </context>
 <context>
@@ -769,17 +770,17 @@
     <message>
         <location filename="../../src/folders.cpp" line="253"/>
         <source>Transfer mode:</source>
-        <translation>Modo de transefrencia:</translation>
+        <translation>傳輸模式:</translation>
     </message>
     <message>
         <location filename="../../src/folders.cpp" line="254"/>
         <source>passive</source>
-        <translation>pasiva</translation>
+        <translation>被動</translation>
     </message>
     <message>
         <location filename="../../src/folders.cpp" line="254"/>
         <source>active</source>
-        <translation>activa</translation>
+        <translation>主動</translation>
     </message>
 </context>
 <context>
@@ -787,17 +788,17 @@
     <message>
         <location filename="../../ui/folders.ui" line="15"/>
         <source>Folders</source>
-        <translation>Carpetas</translation>
+        <translation>資料夾</translation>
     </message>
     <message>
         <location filename="../../ui/folders.ui" line="26"/>
         <source>Add a folder</source>
-        <translation>Añadir una carpeta</translation>
+        <translation>新增資料夾</translation>
     </message>
     <message>
         <location filename="../../ui/folders.ui" line="49"/>
         <source>Delete folder</source>
-        <translation>Eliminar la carpeta</translation>
+        <translation>刪除資料夾</translation>
     </message>
 </context>
 <context>
@@ -805,47 +806,47 @@
     <message>
         <location filename="../../src/google.cpp" line="347"/>
         <source>Search for:</source>
-        <translation>Buscar:</translation>
+        <translation>搜尋:</translation>
     </message>
     <message>
         <location filename="../../src/google.cpp" line="352"/>
         <source>Strict</source>
-        <translation>Elevado</translation>
+        <translation>精確</translation>
     </message>
     <message>
         <location filename="../../src/google.cpp" line="353"/>
         <source>Moderate</source>
-        <translation>Moderado</translation>
+        <translation>中等</translation>
     </message>
     <message>
         <location filename="../../src/google.cpp" line="354"/>
         <source>Off</source>
-        <translation>Desactivado</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../../src/google.cpp" line="357"/>
         <source>Adult filter:</source>
-        <translation>Filtro para adultos:</translation>
+        <translation>成人內容過濾:</translation>
     </message>
     <message>
         <location filename="../../src/google.cpp" line="378"/>
         <source>Google item</source>
-        <translation>Objeto Google</translation>
+        <translation>Google 項目</translation>
     </message>
     <message>
         <location filename="../../src/google.cpp" line="379"/>
         <source>Unfiltered content can show offending or sexual explicit photos</source>
-        <translation></translation>
+        <translation>未過濾的內容可能會顯示冒犯或色情照片</translation>
     </message>
     <message>
         <location filename="../../src/google.cpp" line="390"/>
         <source>Edit Google item</source>
-        <translation>Modificar objeto Google</translation>
+        <translation>編輯 Google 項目</translation>
     </message>
     <message>
         <location filename="../../src/google.cpp" line="396"/>
         <source>Add Google item</source>
-        <translation>Añadir un objeto Google</translation>
+        <translation>新增 Google 項目</translation>
     </message>
 </context>
 <context>
@@ -853,27 +854,27 @@
     <message>
         <location filename="../../src/google.cpp" line="55"/>
         <source>Text:</source>
-        <translation>Texto:</translation>
+        <translation>文本:</translation>
     </message>
     <message>
         <location filename="../../src/google.cpp" line="56"/>
         <source>Adult filter:</source>
-        <translation>Filtro para adultos:</translation>
+        <translation>成人內容過濾:</translation>
     </message>
     <message>
         <location filename="../../src/google.cpp" line="61"/>
         <source>Off</source>
-        <translation>Desactivado</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../../src/google.cpp" line="65"/>
         <source>Moderate</source>
-        <translation>Moderado</translation>
+        <translation>中等</translation>
     </message>
     <message>
         <location filename="../../src/google.cpp" line="70"/>
         <source>Strict</source>
-        <translation>Elevado</translation>
+        <translation>精確</translation>
     </message>
 </context>
 <context>
@@ -882,7 +883,7 @@
         <location filename="../../src/gui.cpp" line="132"/>
         <location filename="../../src/gui.cpp" line="140"/>
         <source>Auto</source>
-        <translation>Auto</translation>
+        <translation>自動</translation>
     </message>
 </context>
 <context>
@@ -890,76 +891,76 @@
     <message>
         <location filename="../../src/history.cpp" line="364"/>
         <source>Right-click on items to show options</source>
-        <translation>Hacer clic con en botón derecho en el elemento para visualizar las opciones</translation>
+        <translation>按滑鼠右鍵顯示選項</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="395"/>
         <location filename="../../src/history.cpp" line="596"/>
         <location filename="../../src/history.cpp" line="613"/>
         <source>History</source>
-        <translation>Historial</translation>
+        <translation>歷史記錄</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="440"/>
         <source>Please wait...</source>
-        <translation>Esperar, por favor...</translation>
+        <translation>請稍等...</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="441"/>
         <source>Downloading photo...</source>
-        <translation>Descargando la foto...</translation>
+        <translation>下載圖片中...</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="442"/>
         <source>Abort</source>
-        <translation>Anular</translation>
+        <translation>中止</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="454"/>
         <location filename="../../src/history.cpp" line="458"/>
         <source>Save photo</source>
-        <translation>Guardar foto</translation>
+        <translation>儲存圖片</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="456"/>
         <location filename="../../src/history.cpp" line="461"/>
         <source>Images (*.png *.xpm *.jpg)</source>
-        <translation>Imágenes (*.png *.xpm *.jpg)</translation>
+        <translation>圖片格式 (*.png *.xpm *.jpg)</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="596"/>
         <source>Photo has been saved</source>
-        <translation>La foto ha sido salvada</translation>
+        <translation>圖片已儲存</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="613"/>
         <source>There was an error during download</source>
-        <translation>Ha accorrido un error durante la descarga</translation>
+        <translation>下載時出現錯誤</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="663"/>
         <source>View photo...</source>
-        <translation>Ver la foto...</translation>
+        <translation>查看圖片...</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="667"/>
         <source>Get EXIF info...</source>
-        <translation>Mostrar información EXIF...</translation>
+        <translation>取得 EXIF 訊息...</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="671"/>
         <source>Save photo...</source>
-        <translation>Guardar foto...</translation>
+        <translation>儲存圖片...</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="675"/>
         <source>Set as background</source>
-        <translation>Establecer como fondo del escritorio</translation>
+        <translation>設成背景</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="679"/>
         <source>Explore image source</source>
-        <translation>Explorar la fuente de la foto</translation>
+        <translation>瀏覽原始圖檔</translation>
     </message>
 </context>
 <context>
@@ -967,20 +968,55 @@
     <message>
         <location filename="../../src/history.cpp" line="70"/>
         <source>All</source>
-        <translation>Todos</translation>
+        <translation>全部</translation>
     </message>
 </context>
 <context>
     <name>History::PhotosQueryModel</name>
     <message>
+        <location filename="../../src/history.cpp" line="238"/>
+        <source>(no title)</source>
+        <translation>(無標題)</translation>
+    </message>
+    <message>
+        <location filename="../../src/history.cpp" line="240"/>
+        <source>by:</source>
+        <translation>依:</translation>
+    </message>
+    <message>
+        <location filename="../../src/history.cpp" line="241"/>
+        <source>(no author)</source>
+        <translation>(無作者)</translation>
+    </message>
+    <message>
+        <location filename="../../src/history.cpp" line="243"/>
+        <source>Date:</source>
+        <translation>日期:</translation>
+    </message>
+    <message>
+        <location filename="../../src/history.cpp" line="245"/>
+        <source>Location:</source>
+        <translation>地點:</translation>
+    </message>
+    <message>
+        <location filename="../../src/history.cpp" line="246"/>
+        <source>unknown</source>
+        <translation>未知</translation>
+    </message>
+    <message>
+        <location filename="../../src/history.cpp" line="248"/>
+        <source>Size:</source>
+        <translation>大小:</translation>
+    </message>
+    <message>
         <location filename="../../src/history.cpp" line="250"/>
         <source>Image size:</source>
-        <translation>Tamaño de la foto:</translation>
+        <translation>圖片大小:</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="252"/>
         <source>Engine:</source>
-        <translation>Módulo:</translation>
+        <translation>引擎:</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="253"/>
@@ -990,47 +1026,12 @@
     <message>
         <location filename="../../src/history.cpp" line="253"/>
         <source>No</source>
-        <translation>No</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../../src/history.cpp" line="253"/>
         <source>Yes</source>
-        <translation>Sí</translation>
-    </message>
-    <message>
-        <location filename="../../src/history.cpp" line="238"/>
-        <source>(no title)</source>
-        <translation>(sin nombre)</translation>
-    </message>
-    <message>
-        <location filename="../../src/history.cpp" line="240"/>
-        <source>by:</source>
-        <translation>Autor:</translation>
-    </message>
-    <message>
-        <location filename="../../src/history.cpp" line="241"/>
-        <source>(no author)</source>
-        <translation>(sin autor)</translation>
-    </message>
-    <message>
-        <location filename="../../src/history.cpp" line="245"/>
-        <source>Location:</source>
-        <translation>Ubicación:</translation>
-    </message>
-    <message>
-        <location filename="../../src/history.cpp" line="246"/>
-        <source>unknown</source>
-        <translation>desconocido</translation>
-    </message>
-    <message>
-        <location filename="../../src/history.cpp" line="248"/>
-        <source>Size:</source>
-        <translation>Tamaño:</translation>
-    </message>
-    <message>
-        <location filename="../../src/history.cpp" line="243"/>
-        <source>Date:</source>
-        <translation>Fecha:</translation>
+        <translation>確定</translation>
     </message>
 </context>
 <context>
@@ -1038,7 +1039,7 @@
     <message>
         <location filename="../../src/history.cpp" line="99"/>
         <source>All</source>
-        <translation>Todos</translation>
+        <translation>全部</translation>
     </message>
 </context>
 <context>
@@ -1047,7 +1048,7 @@
         <location filename="../../src/httpengine.cpp" line="656"/>
         <location filename="../../src/httpengine.cpp" line="661"/>
         <source>Select a folder</source>
-        <translation>Seleccionar una carpeta</translation>
+        <translation>選擇資料夾</translation>
     </message>
 </context>
 <context>
@@ -1055,27 +1056,27 @@
     <message>
         <location filename="../../ui/http.ui" line="12"/>
         <source>Photo sets</source>
-        <translation>Grupo de fotos</translation>
-    </message>
-    <message>
-        <location filename="../../ui/http.ui" line="97"/>
-        <source>Options</source>
-        <translation>Opciones</translation>
-    </message>
-    <message>
-        <location filename="../../ui/http.ui" line="103"/>
-        <source>Save photos</source>
-        <translation>Guardar fotos</translation>
+        <translation>圖片設定</translation>
     </message>
     <message>
         <location filename="../../ui/http.ui" line="20"/>
         <source>Add a photo set</source>
-        <translation>Añadir un grupo de fotos</translation>
+        <translation>新增圖片設定</translation>
     </message>
     <message>
         <location filename="../../ui/http.ui" line="43"/>
         <source>Delete photo set</source>
-        <translation>Eliminar el grupo de fotos</translation>
+        <translation>刪除圖片設定</translation>
+    </message>
+    <message>
+        <location filename="../../ui/http.ui" line="97"/>
+        <source>Options</source>
+        <translation>選項</translation>
+    </message>
+    <message>
+        <location filename="../../ui/http.ui" line="103"/>
+        <source>Save photos</source>
+        <translation>儲存圖片</translation>
     </message>
 </context>
 <context>
@@ -1083,47 +1084,48 @@
     <message>
         <location filename="../../src/ipernity.cpp" line="284"/>
         <source>All of these words</source>
-        <translation>Todas estas palabras</translation>
+        <translation>全部關鍵詞</translation>
     </message>
     <message>
         <location filename="../../src/ipernity.cpp" line="285"/>
         <source>Any of these words</source>
-        <translation>Cualquiera de estas palabras</translation>
+        <translation>任意關鍵詞</translation>
     </message>
     <message>
         <location filename="../../src/ipernity.cpp" line="288"/>
         <source>Search for:</source>
-        <translation>Buscar:</translation>
+        <translation>搜尋:</translation>
     </message>
     <message>
         <location filename="../../src/ipernity.cpp" line="292"/>
         <source>Full text</source>
-        <translation>Texto</translation>
+        <translatorcomment>Is it the same in your language? % it is one of those words which are overtaken from English , we do not have a translation for it</translatorcomment>
+        <translation>全文</translation>
     </message>
     <message>
         <location filename="../../src/ipernity.cpp" line="293"/>
         <source>Tags only</source>
-        <translation>Soló etiquetas</translation>
+        <translation>僅標籤</translation>
     </message>
     <message>
         <location filename="../../src/ipernity.cpp" line="309"/>
         <source>Ipernity item</source>
-        <translation>Objeto Ipernity</translation>
+        <translation>Ipernity 項目</translation>
     </message>
     <message>
         <location filename="../../src/ipernity.cpp" line="310"/>
         <source>It can show offending or sexual explicit photos</source>
-        <translation>Puede mostrar fotos con contenido sexual u ofensivo</translation>
+        <translation>它可能會顯示冒犯或色情照片</translation>
     </message>
     <message>
         <location filename="../../src/ipernity.cpp" line="331"/>
         <source>Edit Ipernity item</source>
-        <translation>Modificar objeto Ipernity</translation>
+        <translation>編輯 Ipernity 項目</translation>
     </message>
     <message>
         <location filename="../../src/ipernity.cpp" line="347"/>
         <source>Add Ipernity item</source>
-        <translation>Añadir un objeto Ipernity</translation>
+        <translation>新增 Ipernity 項目</translation>
     </message>
 </context>
 <context>
@@ -1131,24 +1133,24 @@
     <message>
         <location filename="../../src/ipernity.cpp" line="57"/>
         <source>Text:</source>
-        <translation>Texto:</translation>
+        <translation>文本:</translation>
     </message>
     <message>
         <location filename="../../src/ipernity.cpp" line="58"/>
         <location filename="../../src/ipernity.cpp" line="63"/>
         <source>and</source>
-        <translation>y</translation>
+        <translation>並且</translation>
     </message>
     <message>
         <location filename="../../src/ipernity.cpp" line="59"/>
         <location filename="../../src/ipernity.cpp" line="64"/>
         <source>or</source>
-        <translation>o</translation>
+        <translation>或者</translation>
     </message>
     <message>
         <location filename="../../src/ipernity.cpp" line="66"/>
         <source>Tags:</source>
-        <translation>Etiquetas:</translation>
+        <translation>標籤:</translation>
     </message>
 </context>
 <context>
@@ -1156,27 +1158,27 @@
     <message>
         <location filename="../../src/main.cpp" line="65"/>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation>錯誤</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="68"/>
         <source>is already running</source>
-        <translation>ya está ejecutandose</translation>
+        <translation>已執行</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="77"/>
         <source>Disclaimer</source>
-        <translation>Responsabilidad</translation>
+        <translation>免責聲明</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="78"/>
         <source>&lt;b&gt;The Author takes no responsibility over the content that Wally downloads from photo sharing web sites.&lt;br&gt;The Author is in no way responsible for any such content.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If this is a problem for you, please use only local engines like &quot;Files&quot; or local &quot;Folders&quot;.&lt;br&gt;Otherwise, please select &lt;b&gt;&quot;No&quot;&lt;/b&gt; to exit Wally, or use it &lt;b&gt;at your own risk.&lt;/b&gt;&lt;br&gt;&lt;br&gt;(If you proceed, this message will appear only once)&lt;br&gt;&lt;br&gt;Do you accept the above condition?</source>
-        <translation>&lt;b&gt;El autor no se hace responsable sobre los contenidos que Wally descarga desde sitios web que comparten imagenes.&lt;br&gt;El autor no se hace responsable por ningun contenido.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Si no estas de acuerdo entonces usa solo modulos locales come &quot;Files&quot; o &quot;local Folders&quot; o selecciona &lt;b&gt;&quot;No&quot;&lt;/b&gt; para salir, o usa Wally a tu riesgo.&lt;/b&gt;&lt;br&gt;&lt;br&gt;(si continuas, este mensaje aparecerá una sola vez)&lt;br&gt;&lt;br&gt;¿Aceptas la condiciones de uso?</translation>
+        <translation>&lt;b&gt;作者不承擔 Wally 以照片內容分享於網站下載的責任。&lt;br&gt;作者絶對不負責任何的內容。&lt;/b&gt;&lt;br&gt;&lt;br&gt;如果您不同意，請只使用本地引擎，像 &quot;Files&quot; 或 本地的 &quot;Folders&quot;。&lt;br&gt;否則，請選擇 &lt;b&gt;&quot;No&quot;&lt;/b&gt; 退出 Wally，或者使用它並自己承擔責任。&lt;/b&gt;&lt;br&gt;&lt;br&gt;（如果您要繼續，此訊息將只出現一次）&lt;br&gt;&lt;br&gt;你是否接受上述條件？</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="66"/>
         <source>Another instance of</source>
-        <translation>Otra instancia de</translation>
+        <translation>另一個實例</translation>
     </message>
 </context>
 <context>
@@ -1184,12 +1186,12 @@
     <message>
         <location filename="../../src/mapviewer.cpp" line="387"/>
         <source>Drag to select. Right-click to zoom</source>
-        <translation>Arrastar para seleccionar. Hacer clic con el botón derecho para aumentar el zoom</translation>
+        <translation>拖曳滑鼠來選擇；按滑鼠左鍵來縮放</translation>
     </message>
     <message>
         <location filename="../../src/mapviewer.cpp" line="395"/>
         <source>Zoom %1x</source>
-        <translation>Zoom %1x</translation>
+        <translation>放大 %1x</translation>
     </message>
 </context>
 <context>
@@ -1197,8 +1199,7 @@
     <message>
         <location filename="../../src/mapviewer.cpp" line="434"/>
         <source>Map viewer</source>
-        <translatorcomment>Mapa</translatorcomment>
-        <translation></translation>
+        <translation>地圖瀏覽</translation>
     </message>
 </context>
 <context>
@@ -1206,208 +1207,208 @@
     <message>
         <location filename="../../src/panoramio.cpp" line="322"/>
         <source>Select on map</source>
-        <translation>Seleccionar en el mapa</translation>
+        <translation>在地圖上選擇</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="328"/>
         <source>Longitude (min):</source>
-        <translation>Longitud (mín):</translation>
+        <translation>經度 (小):</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="330"/>
         <source>Longitude (max):</source>
-        <translation>Longitud (máx):</translation>
+        <translation>經度 (大):</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="332"/>
         <source>Latitude (min):</source>
-        <translation>Latitud (mín):</translation>
+        <translation>緯度 (小):</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="334"/>
         <source>Latitude (max):</source>
-        <translation>Latitud (máx):</translation>
+        <translation>緯度(大):</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="352"/>
         <source>Popularity</source>
-        <translation>Popularidad</translation>
+        <translation>人氣</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="353"/>
         <source>Upload date</source>
-        <translation>Fecha de carga</translation>
+        <translation>上傳日期</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="358"/>
         <source>Original</source>
-        <translation>Original</translation>
+        <translation>原圖</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="359"/>
         <source>Medium</source>
-        <translation>Medio</translation>
+        <translation>中圖</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="360"/>
         <source>Small</source>
-        <translation>Pequeño</translation>
+        <translation>小圖</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="361"/>
         <source>Thumbnail</source>
-        <translation>Miniatura</translation>
+        <translation>縮圖</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="362"/>
         <source>Square</source>
-        <translation>Cuadrado</translation>
+        <translation>正方形</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="363"/>
         <source>Mini square</source>
-        <translation>Mini cuadrado</translation>
+        <translation>小正方形</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="366"/>
         <source>Order:</source>
-        <translation>Orden:</translation>
+        <translation>排序:</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="367"/>
         <source>Size:</source>
-        <translation>Tamaño:</translation>
+        <translation>大小:</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="414"/>
         <source>Edit Panoramio item</source>
-        <translation>Modificar objeto Panoramio</translation>
+        <translation>編輯 Panoramio 項目</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="427"/>
         <source>Add Panoramio item</source>
-        <translation>Añadir un objeto Panoramio</translation>
+        <translation>新增 Panoramio 項目</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="435"/>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation>錯誤</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="435"/>
         <source>Coordinates must be different</source>
-        <translation>Las coordenadas deben ser diferentes</translation>
+        <translation>必須在不同的座標</translation>
     </message>
 </context>
 <context>
     <name>Panoramio::Item</name>
     <message>
-        <location filename="../../src/panoramio.cpp" line="284"/>
-        <source>Original</source>
-        <translation>Original</translation>
-    </message>
-    <message>
-        <location filename="../../src/panoramio.cpp" line="285"/>
-        <source>Medium</source>
-        <translation>Medio</translation>
-    </message>
-    <message>
-        <location filename="../../src/panoramio.cpp" line="286"/>
-        <source>Small</source>
-        <translation>Pequeño</translation>
-    </message>
-    <message>
-        <location filename="../../src/panoramio.cpp" line="287"/>
-        <source>Thumbnail</source>
-        <translation>Miniatura</translation>
-    </message>
-    <message>
-        <location filename="../../src/panoramio.cpp" line="288"/>
-        <source>Square</source>
-        <translation>Cuadrado</translation>
-    </message>
-    <message>
-        <location filename="../../src/panoramio.cpp" line="289"/>
-        <source>Mini square</source>
-        <translation>Mini cuadrado</translation>
-    </message>
-    <message>
-        <location filename="../../src/panoramio.cpp" line="294"/>
-        <source>Popularity</source>
-        <translation>Popularidad</translation>
-    </message>
-    <message>
-        <location filename="../../src/panoramio.cpp" line="295"/>
-        <source>Upload date</source>
-        <translation>Fecha de carga</translation>
-    </message>
-    <message>
-        <location filename="../../src/panoramio.cpp" line="298"/>
-        <source>Longitude:</source>
-        <translation>Longitud:</translation>
-    </message>
-    <message>
-        <location filename="../../src/panoramio.cpp" line="301"/>
-        <source>Latitude:</source>
-        <translation>Latitud:</translation>
-    </message>
-    <message>
-        <location filename="../../src/panoramio.cpp" line="304"/>
-        <source>Size:</source>
-        <translation>Tamaño:</translation>
-    </message>
-    <message>
-        <location filename="../../src/panoramio.cpp" line="305"/>
-        <source>Order:</source>
-        <translation>Orden:</translation>
-    </message>
-    <message>
         <location filename="../../src/panoramio.cpp" line="185"/>
         <source>lat:</source>
-        <translation>lat:</translation>
+        <translation>緯度:</translation>
     </message>
     <message>
         <location filename="../../src/panoramio.cpp" line="186"/>
         <source>lon:</source>
-        <translation>lon:</translation>
+        <translation>經度:</translation>
+    </message>
+    <message>
+        <location filename="../../src/panoramio.cpp" line="284"/>
+        <source>Original</source>
+        <translation>原圖</translation>
+    </message>
+    <message>
+        <location filename="../../src/panoramio.cpp" line="285"/>
+        <source>Medium</source>
+        <translation>中圖</translation>
+    </message>
+    <message>
+        <location filename="../../src/panoramio.cpp" line="286"/>
+        <source>Small</source>
+        <translation>小圖</translation>
+    </message>
+    <message>
+        <location filename="../../src/panoramio.cpp" line="287"/>
+        <source>Thumbnail</source>
+        <translation>縮圖</translation>
+    </message>
+    <message>
+        <location filename="../../src/panoramio.cpp" line="288"/>
+        <source>Square</source>
+        <translation>正方形</translation>
+    </message>
+    <message>
+        <location filename="../../src/panoramio.cpp" line="289"/>
+        <source>Mini square</source>
+        <translation>小正方形</translation>
+    </message>
+    <message>
+        <location filename="../../src/panoramio.cpp" line="294"/>
+        <source>Popularity</source>
+        <translation>人氣</translation>
+    </message>
+    <message>
+        <location filename="../../src/panoramio.cpp" line="295"/>
+        <source>Upload date</source>
+        <translation>上傳日期</translation>
+    </message>
+    <message>
+        <location filename="../../src/panoramio.cpp" line="298"/>
+        <source>Longitude:</source>
+        <translation>經度:</translation>
+    </message>
+    <message>
+        <location filename="../../src/panoramio.cpp" line="301"/>
+        <source>Latitude:</source>
+        <translation>緯度:</translation>
+    </message>
+    <message>
+        <location filename="../../src/panoramio.cpp" line="304"/>
+        <source>Size:</source>
+        <translation>大小:</translation>
+    </message>
+    <message>
+        <location filename="../../src/panoramio.cpp" line="305"/>
+        <source>Order:</source>
+        <translation>排序:</translation>
     </message>
 </context>
 <context>
     <name>Photobucket::DialogWidget</name>
     <message>
-        <location filename="../../src/photobucket.cpp" line="279"/>
-        <source>Search for:</source>
-        <translation>Buscar:</translation>
-    </message>
-    <message>
-        <location filename="../../src/photobucket.cpp" line="293"/>
-        <source>Photobucket item</source>
-        <translation>Objecto Photobucket</translation>
-    </message>
-    <message>
-        <location filename="../../src/photobucket.cpp" line="294"/>
-        <source>It can show offending or sexual explicit photos</source>
-        <translation>Puede mostrar fotos con contenido sexual u ofensivo</translation>
-    </message>
-    <message>
-        <location filename="../../src/photobucket.cpp" line="311"/>
-        <source>Edit Photobucket item</source>
-        <translation>Modificar objeto Photobucket</translation>
-    </message>
-    <message>
-        <location filename="../../src/photobucket.cpp" line="317"/>
-        <source>Add Photobucket item</source>
-        <translation>Añadir un objeto Photobucket</translation>
-    </message>
-    <message>
         <location filename="../../src/photobucket.cpp" line="275"/>
         <source>All of these words</source>
-        <translation>Todas estas palabras</translation>
+        <translation>全部關鍵詞</translation>
     </message>
     <message>
         <location filename="../../src/photobucket.cpp" line="276"/>
         <source>Any of these words</source>
-        <translation>Cualquiera de estas palabras</translation>
+        <translation>任意關鍵詞</translation>
+    </message>
+    <message>
+        <location filename="../../src/photobucket.cpp" line="279"/>
+        <source>Search for:</source>
+        <translation>搜尋:</translation>
+    </message>
+    <message>
+        <location filename="../../src/photobucket.cpp" line="293"/>
+        <source>Photobucket item</source>
+        <translation>Photobucket 項目</translation>
+    </message>
+    <message>
+        <location filename="../../src/photobucket.cpp" line="294"/>
+        <source>It can show offending or sexual explicit photos</source>
+        <translation>它可能會顯示冒犯或色情照片</translation>
+    </message>
+    <message>
+        <location filename="../../src/photobucket.cpp" line="311"/>
+        <source>Edit Photobucket item</source>
+        <translation>編輯 Photobucket 項目</translation>
+    </message>
+    <message>
+        <location filename="../../src/photobucket.cpp" line="317"/>
+        <source>Add Photobucket item</source>
+        <translation>新增 Photobucket 項目</translation>
     </message>
 </context>
 <context>
@@ -1415,17 +1416,17 @@
     <message>
         <location filename="../../src/photobucket.cpp" line="81"/>
         <source>Text:</source>
-        <translation>Texto:</translation>
+        <translation>文本:</translation>
     </message>
     <message>
         <location filename="../../src/photobucket.cpp" line="82"/>
         <source>and</source>
-        <translation>y</translation>
+        <translation>並且</translation>
     </message>
     <message>
         <location filename="../../src/photobucket.cpp" line="83"/>
         <source>or</source>
-        <translation>o</translation>
+        <translation>或者</translation>
     </message>
 </context>
 <context>
@@ -1433,17 +1434,17 @@
     <message>
         <location filename="../../src/picasa.cpp" line="255"/>
         <source>Search for:</source>
-        <translation>Buscar:</translation>
+        <translation>搜尋:</translation>
     </message>
     <message>
         <location filename="../../src/picasa.cpp" line="278"/>
         <source>Edit Picasa item</source>
-        <translation>Modificar objeto Picasa</translation>
+        <translation>編輯 Picasa 項目</translation>
     </message>
     <message>
         <location filename="../../src/picasa.cpp" line="283"/>
         <source>Add Picasa item</source>
-        <translation>Añadir un objeto Picasa</translation>
+        <translation>新增 Picasa 項目</translation>
     </message>
 </context>
 <context>
@@ -1451,7 +1452,7 @@
     <message>
         <location filename="../../src/picasa.cpp" line="47"/>
         <source>Text:</source>
-        <translation>Texto:</translation>
+        <translation>文本:</translation>
     </message>
 </context>
 <context>
@@ -1459,57 +1460,57 @@
     <message>
         <location filename="../../src/pikeo.cpp" line="268"/>
         <source>Search for:</source>
-        <translation>Buscar:</translation>
+        <translation>搜尋:</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="273"/>
         <source>Default</source>
-        <translation>Predeterminado</translation>
+        <translation>默认值</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="274"/>
         <source>Most viewed</source>
-        <translation>Más vistas</translation>
+        <translation>最常瀏覽</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="275"/>
         <source>Upload date</source>
-        <translation>Fecha de carga</translation>
+        <translation>上傳日期</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="276"/>
         <source>Date taken</source>
-        <translation>Fecha de toma</translation>
+        <translation>拍攝日期</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="277"/>
         <source>Group add date</source>
-        <translation>Fecha de inclusión en grupo</translation>
+        <translation>群組新增日期</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="278"/>
         <source>Comment date</source>
-        <translation>Fecha del comentario</translation>
+        <translation>評論日期</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="282"/>
         <source>Ascending</source>
-        <translation>Ascendente</translation>
+        <translation>升冪</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="284"/>
         <source>Order:</source>
-        <translation>Orden:</translation>
+        <translation>排序:</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="315"/>
         <source>Edit Pikeo item</source>
-        <translation>Modificar objeto Pikeo</translation>
+        <translation>編輯 Pikeo 項目</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="322"/>
         <source>Add Pikeo item</source>
-        <translation>Añadir un objeto Pikeo</translation>
+        <translation>新增 Pikeo 項目</translation>
     </message>
 </context>
 <context>
@@ -1517,53 +1518,52 @@
     <message>
         <location filename="../../src/pikeo.cpp" line="56"/>
         <source>Tags:</source>
-        <translation>Etiquetas:</translation>
+        <translation>標籤:</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="57"/>
         <source>Order:</source>
-        <translation>Orden:</translation>
+        <translation>排序:</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="61"/>
         <source>Default</source>
-        <translation>Predeterminado</translation>
+        <translation>預設值</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="62"/>
         <source>Most viewed</source>
-        <translation>Más vistas</translation>
+        <translation>最常瀏覽</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="63"/>
         <source>Upload date</source>
-        <translatorcomment>subida o carga?</translatorcomment>
-        <translation>Fecha de carga</translation>
+        <translation>上傳日期</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="64"/>
         <source>Date taken</source>
-        <translation>Fecha de toma</translation>
+        <translation>拍攝日期</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="65"/>
         <source>Group add date</source>
-        <translation>Fecha de inclusión en grupo</translation>
+        <translation>群組新增日期</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="66"/>
         <source>Comment date</source>
-        <translation>Fecha del comentario</translation>
+        <translation>評論日期</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="69"/>
         <source>ascending</source>
-        <translation>ascendente</translation>
+        <translation>升冪</translation>
     </message>
     <message>
         <location filename="../../src/pikeo.cpp" line="69"/>
         <source>descending</source>
-        <translation>discendente</translation>
+        <translation>降冪</translation>
     </message>
 </context>
 <context>
@@ -1571,12 +1571,12 @@
     <message>
         <location filename="../../src/settings.cpp" line="133"/>
         <source>Position</source>
-        <translation>Posición</translation>
+        <translation>圖片位置</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="136"/>
         <source>Picture smaller than screen on the left, greater than screen on the right</source>
-        <translation>Imagen más pequeña que la pantalla a la izquierda, más grande a la derecha</translation>
+        <translation>左側：圖片比螢幕小，右側：圖片比螢幕大</translation>
     </message>
 </context>
 <context>
@@ -1584,52 +1584,52 @@
     <message>
         <location filename="../../src/settings.cpp" line="184"/>
         <source>Hu&amp;e:</source>
-        <translation>&amp;Tono:</translation>
+        <translation>色調(&amp;E):</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="185"/>
         <source>&amp;Sat:</source>
-        <translation>&amp;Saturación:</translation>
+        <translation>飽和度(&amp;S):</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="186"/>
         <source>&amp;Val:</source>
-        <translation>&amp;Valor:</translation>
+        <translation>亮度(&amp;V):</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="187"/>
         <source>&amp;Red:</source>
-        <translation>&amp;Rojo:</translation>
+        <translation>紅(&amp;R):</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="188"/>
         <source>&amp;Green:</source>
-        <translation>&amp;Verde:</translation>
+        <translation>綠(&amp;G):</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="189"/>
         <source>Bl&amp;ue:</source>
-        <translation>Az&amp;ul:</translation>
+        <translation>藍(&amp;B):</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="190"/>
         <source>Select Color</source>
-        <translation>Seleccionar color</translation>
+        <translation>選擇顏色</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="191"/>
         <source>&amp;Basic colors</source>
-        <translation>Colores &amp;básicos</translation>
+        <translation>基本顏色(&amp;B)</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="192"/>
         <source>&amp;Custom colors</source>
-        <translation>&amp;Colores personalizados</translation>
+        <translation>自訂顏色(&amp;C)</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="193"/>
         <source>&amp;Add to Custom Colors</source>
-        <translation>&amp;Añadir a los colores personalizados</translation>
+        <translation>新增到自訂顏色(&amp;A)</translation>
     </message>
 </context>
 <context>
@@ -1637,37 +1637,37 @@
     <message>
         <location filename="../../src/settings.cpp" line="176"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>確定</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="177"/>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="178"/>
         <source>Reset</source>
-        <translation>Restablecer</translation>
+        <translation>重置</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="179"/>
         <source>&amp;Yes</source>
-        <translation>&amp;Sí</translation>
+        <translation>確定(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="180"/>
         <source>&amp;No</source>
-        <translation>&amp;No</translation>
+        <translation>取消(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="181"/>
         <source>Close</source>
-        <translation>Cerrar</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="182"/>
         <source>&amp;Close</source>
-        <translation>&amp;Cerrar</translation>
+        <translation>關閉(&amp;C)</translation>
     </message>
 </context>
 <context>
@@ -1675,29 +1675,28 @@
     <message>
         <location filename="../../src/settings.cpp" line="195"/>
         <source>Directories</source>
-        <translation>Carpetas</translation>
+        <translation>資料夾</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="196"/>
         <source>&amp;Open</source>
-        <translation>&amp;Abrir</translation>
+        <translation>開啟(&amp;O)</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="197"/>
         <source>&amp;Save</source>
-        <translation>&amp;Guardar</translation>
+        <translation>儲存(&amp;S)</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="198"/>
         <source>Open</source>
-        <translation>Abrir</translation>
+        <translation>開啟</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="199"/>
         <source>%1 already exists.
 Do you want to replace it?</source>
-        <translation>El archivo %1 ya existe.
-¿Desea reemplazarlo?</translation>
+        <translation>%1 已存在。要替換它嗎？</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="200"/>
@@ -1705,58 +1704,58 @@ Do you want to replace it?</source>
 File not found.
 Please verify the correct file name was given.</source>
         <translation>%1
-Archivo no encontrado.
-Verifica que el nombre del archivo sea correcto.</translation>
+找不到檔案。
+請檢查所指定的檔案名稱是否正確。</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="201"/>
         <source>My Computer</source>
-        <translation>Mi equipo</translation>
+        <translation>我的電腦</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="202"/>
         <source>&amp;Rename</source>
-        <translation>Cambia&amp;r nombre</translation>
+        <translation>重新命名(&amp;R)</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="203"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Borrar</translation>
+        <translation>刪除(&amp;D)</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="204"/>
         <source>Show &amp;hidden files</source>
-        <translation>Mostrar los fic&amp;heros ocultos</translation>
+        <translation>顯示隱藏檔案(&amp;H)</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="205"/>
         <source>Back</source>
-        <translation>Anterior (histórico)</translation>
+        <translation>返回</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="206"/>
         <source>Parent Directory</source>
-        <translation>Directorio padre</translation>
+        <translation>上層資料夾</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="207"/>
         <source>List View</source>
-        <translation>Vista de lista</translation>
+        <translation>清單檢視</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="208"/>
         <source>Detail View</source>
-        <translation>Vista detallada</translation>
+        <translation>詳細資料檢視</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="209"/>
         <source>Files of type:</source>
-        <translation>Archivos de tipo:</translation>
+        <translation>檔案類型:</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="210"/>
         <source>Directory:</source>
-        <translation>Carpeta:</translation>
+        <translation>資料夾:</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="211"/>
@@ -1764,100 +1763,100 @@ Verifica que el nombre del archivo sea correcto.</translation>
 Directory not found.
 Please verify the correct directory name was given.</source>
         <translation>%1
-Carpeta no encontrada.
-Verique que el nombre sea correcto.</translation>
+找不到資料夾。
+請檢查所指定的資料夾名稱是否正確。</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="212"/>
         <source>&apos;%1&apos; is write protected.
 Do you want to delete it anyway?</source>
-        <translation>&apos;%1&apos; está protegido contra escritura.
-¿Desea borrarlo de todas formas?</translation>
+        <translation>&apos;%1&apos; 有寫入保護。
+您確定要刪除它嗎？</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="213"/>
         <source>Are sure you want to delete &apos;%1&apos;?</source>
-        <translation>Estas seguro que deseas borrar &apos;%1&apos;?</translation>
+        <translation>您確定要刪除 &apos;%1&apos;？</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="214"/>
         <source>Could not delete directory.</source>
-        <translation>No se pudo borrar la carpeta.</translation>
+        <translation>不能刪除資料夾。</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="215"/>
         <source>Recent Places</source>
-        <translation>Documentos recientes</translation>
+        <translation>最近的位置</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="216"/>
         <source>Save As</source>
-        <translation>Guardar como</translation>
+        <translation>另存為</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="217"/>
         <source>Drive</source>
-        <translation>Unidad</translation>
+        <translation>硬碟</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="218"/>
         <source>File</source>
-        <translation>Archivo</translation>
+        <translation>檔案</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="219"/>
         <source>Unknown</source>
-        <translation>Desconocido</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="220"/>
         <source>Find Directory</source>
-        <translation>Encontrar carpetas</translation>
+        <translation>搜尋資料夾</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="221"/>
         <source>Show</source>
-        <translation>Mostrar </translation>
+        <translation>顯示</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="222"/>
         <source>Forward</source>
-        <translation>Siguiente (histórico)</translation>
+        <translation>向前</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="223"/>
         <source>New Folder</source>
-        <translation>Nueva carpeta</translation>
+        <translation>新增資料夾</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="224"/>
         <source>&amp;New Folder</source>
-        <translation>&amp;Nueva carpeta</translation>
+        <translation>新增資料夾(&amp;N)</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="225"/>
         <source>&amp;Choose</source>
-        <translation>&amp;Seleccionar</translation>
+        <translation>選擇(&amp;C)</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="226"/>
         <source>Remove</source>
-        <translation>Eliminar</translation>
+        <translation>刪除</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="227"/>
         <source>File &amp;name:</source>
-        <translation>&amp;Nombre del archivo:</translation>
+        <translation>檔案名稱(&amp;N):</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="228"/>
         <source>Look in:</source>
-        <translation>Ver en:</translation>
+        <translation>搜尋範圍:</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="229"/>
         <source>Create New Folder</source>
-        <translation>Crear una nueva carpeta</translation>
+        <translation>新增資料夾</translation>
     </message>
 </context>
 <context>
@@ -1865,67 +1864,67 @@ Do you want to delete it anyway?</source>
     <message>
         <location filename="../../src/utils.cpp" line="76"/>
         <source>All image files</source>
-        <translation>Todos los archivos de imagen</translation>
+        <translation>全部圖片檔案</translation>
     </message>
     <message>
         <location filename="../../src/utils.cpp" line="80"/>
         <source>files</source>
-        <translation>archivos</translation>
+        <translation>檔案</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="31"/>
         <source>Centered</source>
-        <translation>Centrado</translation>
+        <translation>置中</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="34"/>
         <source>Tiled</source>
-        <translation>Mosaico</translation>
+        <translation>鋪排</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="37"/>
         <source>Center Tiled</source>
-        <translation>Mosaico centrado</translation>
+        <translation>置中鋪排</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="40"/>
         <source>Centered Maxpect</source>
-        <translation>Escalado proporcional</translation>
+        <translation>縮放至螢幕高度後置中</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="43"/>
         <source>Tiled Maxpect</source>
-        <translation>Mosaico proporcional</translation>
+        <translation>縮放至螢幕高度後鋪排</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="46"/>
         <source>Scaled</source>
-        <translation>Escalado</translation>
+        <translation>填滿</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="49"/>
         <source>Centered Auto Fit</source>
-        <translation>Auto ajuste centrado</translation>
+        <translation>自動縮小後置中</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="52"/>
         <source>Scale &amp; Crop</source>
-        <translation>Escalado &amp; recortado</translation>
+        <translation>縮放至螢幕寬度</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="55"/>
         <source>Symmetrical Tiled</source>
-        <translation>Mosaico simétrico</translation>
+        <translation>對稱鋪排</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="58"/>
         <source>Mirrored Tiled</source>
-        <translation>Mosaico en espejo</translation>
+        <translation>鏡像鋪排</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="61"/>
         <source>Symmetrical Mirrored Tiled</source>
-        <translation>Mosaico simétrico en espejo</translation>
+        <translation>鏡像對稱鋪排</translation>
     </message>
 </context>
 <context>
@@ -1933,11 +1932,28 @@ Do you want to delete it anyway?</source>
     <message>
         <location filename="../../src/history.cpp" line="340"/>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
     <name>SettingsDialog</name>
+    <message>
+        <location filename="../../src/settings.cpp" line="168"/>
+        <location filename="../../src/settings.cpp" line="173"/>
+        <location filename="../../src/settings.cpp" line="514"/>
+        <source>Settings</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <location filename="../../src/settings.cpp" line="239"/>
+        <source>Left</source>
+        <translation>左</translation>
+    </message>
+    <message>
+        <location filename="../../src/settings.cpp" line="240"/>
+        <source>Right</source>
+        <translation>右</translation>
+    </message>
     <message>
         <location filename="../../src/settings.cpp" line="243"/>
         <source>kBytes</source>
@@ -1957,16 +1973,14 @@ Do you want to delete it anyway?</source>
         <location filename="../../src/settings.cpp" line="248"/>
         <source>day(s)</source>
         <translation>
-            <numerusform>día(s)</numerusform>
-            <numerusform></numerusform>
+            <numerusform>日</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../../src/settings.cpp" line="249"/>
         <source>month(s)</source>
         <translation>
-            <numerusform>mes(es)</numerusform>
-            <numerusform></numerusform>
+            <numerusform>月</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -1974,8 +1988,7 @@ Do you want to delete it anyway?</source>
         <location filename="../../src/settings.cpp" line="524"/>
         <source>second(s)</source>
         <translation>
-            <numerusform>segundo</numerusform>
-            <numerusform>segundos</numerusform>
+            <numerusform>秒</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -1983,8 +1996,7 @@ Do you want to delete it anyway?</source>
         <location filename="../../src/settings.cpp" line="525"/>
         <source>minute(s)</source>
         <translation>
-            <numerusform>minuto</numerusform>
-            <numerusform>minutos</numerusform>
+            <numerusform>分</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -1992,237 +2004,219 @@ Do you want to delete it anyway?</source>
         <location filename="../../src/settings.cpp" line="526"/>
         <source>hour(s)</source>
         <translation>
-            <numerusform>hora</numerusform>
-            <numerusform>horas</numerusform>
+            <numerusform>小時</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="453"/>
         <source>Set position</source>
-        <translation>Fijar posición</translation>
+        <translation>設定圖片位置</translation>
+    </message>
+    <message>
+        <location filename="../../src/settings.cpp" line="514"/>
+        <source>Changes won&apos;t be applied. Are you sure?</source>
+        <translation>變更將不會被套用。你確定嗎?</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="599"/>
         <source>Clear history</source>
-        <translation>Eliminar el historial</translation>
+        <translation>清除歷史記錄</translation>
     </message>
     <message>
         <location filename="../../src/settings.cpp" line="599"/>
         <source>Are you sure?</source>
-        <translation>Estas seguro?</translation>
-    </message>
-    <message>
-        <location filename="../../src/settings.cpp" line="168"/>
-        <location filename="../../src/settings.cpp" line="173"/>
-        <location filename="../../src/settings.cpp" line="514"/>
-        <source>Settings</source>
-        <translation>Configuración</translation>
+        <translation>你確定嗎?</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="34"/>
         <source>General options</source>
-        <translation>Opciones globales</translation>
+        <translation>一般選項</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="42"/>
         <source>Interval:</source>
-        <translation>Intervalo:</translation>
+        <translation>間隔時間:</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="69"/>
         <source>Border:</source>
-        <translation>Borde:</translation>
+        <translation>邊框顏色:</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="86"/>
         <location filename="../../ui/settings.ui" line="237"/>
         <source>Position:</source>
-        <translation>Posición:</translation>
+        <translation>圖片位置:</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="144"/>
         <source>Main</source>
-        <translation>Principal</translation>
+        <translation>主要</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="153"/>
         <source>Choose in random order</source>
-        <translation>Elegir en orden aleatorio</translation>
+        <translation>選擇順序採隨機播放</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="160"/>
         <source>Switch background on play</source>
-        <translation>Conmutar fondo al iniciar</translation>
+        <translation>播放時切換背景</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="167"/>
         <source>Play automatically on application start</source>
-        <translation>Activación automática al iniciar la aplicación</translation>
+        <translation>程式啟動時自動播放</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="174"/>
         <source>Disable splash screen</source>
-        <translation>Imagen de Inicio</translation>
+        <translation>禁止播放啟動畫面</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="181"/>
         <source>Quit after background change</source>
-        <translation>Salir despues del cambio del fondo de pantalla</translation>
+        <translation>背景更換後就退出</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="188"/>
         <source>Start automatically when system starts</source>
-        <translation>Activación automática al arrancar el sistema</translation>
+        <translation>系統啟動時自動啟動程式</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="195"/>
         <source>Only use landscape-oriented photos</source>
-        <translation>Usar sólo imágenes en modo horizontal </translation>
+        <translation>只使用景觀型的照片</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="202"/>
         <source>Rotate images according to EXIF information</source>
-        <translation>Girar las fotos según Información EXIF</translation>
+        <translation>根據 EXIF 訊息旋轉圖片</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="211"/>
         <source>View info on photo</source>
-        <translation>Ver informaciónes sobre la foto</translation>
+        <translation>查看照片的訊息</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="269"/>
         <source>View info in system tray tooltip</source>
-        <translation>Ver la información en el icono en la barra de applicaciones</translation>
+        <translation>在系统工具列提示查看訊息</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="276"/>
         <source>Use full desktop area</source>
-        <translation>Usar todo el espacio del escritorio</translation>
+        <translation>使用全部桌面區域</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="285"/>
         <source>Photo has to be</source>
-        <translation>La foto tiene que ser</translation>
+        <translation>圖片必須是</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="296"/>
         <source>independent of</source>
-        <translation>independiente de</translation>
+        <translation>獨立於</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="301"/>
         <source>at least 1/2 of</source>
-        <translation>por lo menos 1/2 de</translation>
+        <translation>至少 1/2 於</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="306"/>
         <source>at least 3/4 of</source>
-        <translation>por lo menos 3/4 de</translation>
+        <translation>至少 3/4 於</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="311"/>
         <source>bigger than</source>
-        <translation>más grande que</translation>
+        <translation>大於</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="319"/>
         <source>desktop&apos;s size</source>
-        <translation>tamaño del escritorio</translation>
-    </message>
-    <message>
-        <location filename="../../ui/settings.ui" line="381"/>
-        <source>Store images in history for</source>
-        <translation>Conservar fotos en historial por</translation>
-    </message>
-    <message>
-        <location filename="../../ui/settings.ui" line="398"/>
-        <source>Clear</source>
-        <translation>Eliminar</translation>
-    </message>
-    <message>
-        <location filename="../../ui/settings.ui" line="433"/>
-        <source>Direct connection</source>
-        <translation>Conexión directa</translation>
-    </message>
-    <message>
-        <location filename="../../ui/settings.ui" line="443"/>
-        <source>Proxy connection</source>
-        <translation>Conexión por medio de proxy</translation>
+        <translation>桌面大小</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="343"/>
         <source>Don&apos;t save locally remote photos if free disk space goes below</source>
-        <translation>No guardar las fotos descargadas si el espacio libre en el disco duro es menor de</translation>
+        <translation>如果可用磁碟空間不足就不在本地儲存遠端圖片</translation>
+    </message>
+    <message>
+        <location filename="../../ui/settings.ui" line="381"/>
+        <source>Store images in history for</source>
+        <translation>保存歷史圖片</translation>
+    </message>
+    <message>
+        <location filename="../../ui/settings.ui" line="398"/>
+        <source>Clear</source>
+        <translation>清除</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="630"/>
         <source>Engines</source>
-        <translation>Módulos</translation>
+        <translation>引擎</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="750"/>
         <source>Available modules:</source>
-        <translation>Módulos disponibles:</translation>
+        <translation>可用模組:</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="757"/>
         <source>Active modules:</source>
-        <translation>Módulos activos:</translation>
+        <translation>啟用模組:</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="421"/>
         <source>Network</source>
-        <translation>Red</translation>
+        <translation>網路</translation>
+    </message>
+    <message>
+        <location filename="../../ui/settings.ui" line="433"/>
+        <source>Direct connection</source>
+        <translation>直接連線</translation>
+    </message>
+    <message>
+        <location filename="../../ui/settings.ui" line="443"/>
+        <source>Proxy connection</source>
+        <translation>代理伺服器連線</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="467"/>
         <source>Use system proxy</source>
-        <translation>Utilizar proxy de sistema</translation>
+        <translation>使用系统代理伺服器</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="477"/>
         <source>Use custom proxy</source>
-        <translation>Utilizar proxy de usuario</translation>
-    </message>
-    <message>
-        <location filename="../../ui/settings.ui" line="497"/>
-        <source>Port:</source>
-        <translation>Puerto:</translation>
-    </message>
-    <message>
-        <location filename="../../ui/settings.ui" line="547"/>
-        <source>Authentication</source>
-        <translation>Autenticación</translation>
-    </message>
-    <message>
-        <location filename="../../ui/settings.ui" line="562"/>
-        <source>Username:</source>
-        <translation>Nombre de usuario:</translation>
-    </message>
-    <message>
-        <location filename="../../ui/settings.ui" line="579"/>
-        <source>Password:</source>
-        <translation>Contraseña:</translation>
+        <translation>使用自訂代理伺服器</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="487"/>
         <source>Server:</source>
-        <translation>Servidor:</translation>
+        <translation>伺服器:</translation>
     </message>
     <message>
-        <location filename="../../src/settings.cpp" line="514"/>
-        <source>Changes won&apos;t be applied. Are you sure?</source>
-        <translation>Los cambios no serán aplicados. Proceder?</translation>
+        <location filename="../../ui/settings.ui" line="497"/>
+        <source>Port:</source>
+        <translation>連接埠:</translation>
     </message>
     <message>
-        <location filename="../../src/settings.cpp" line="239"/>
-        <source>Left</source>
-        <translation>A la izquierda</translation>
+        <location filename="../../ui/settings.ui" line="547"/>
+        <source>Authentication</source>
+        <translation>驗證</translation>
     </message>
     <message>
-        <location filename="../../src/settings.cpp" line="240"/>
-        <source>Right</source>
-        <translation>A la derecha</translation>
+        <location filename="../../ui/settings.ui" line="562"/>
+        <source>Username:</source>
+        <translation>使用者名稱:</translation>
+    </message>
+    <message>
+        <location filename="../../ui/settings.ui" line="579"/>
+        <source>Password:</source>
+        <translation>密碼:</translation>
     </message>
 </context>
 <context>
@@ -2230,17 +2224,17 @@ Do you want to delete it anyway?</source>
     <message>
         <location filename="../../src/smugmug.cpp" line="252"/>
         <source>Search for:</source>
-        <translation>Buscar:</translation>
+        <translation>搜尋:</translation>
     </message>
     <message>
         <location filename="../../src/smugmug.cpp" line="275"/>
         <source>Edit SmugMug item</source>
-        <translation>Modificar objeto Smugmug</translation>
+        <translation>編輯 SmugMug 項目</translation>
     </message>
     <message>
         <location filename="../../src/smugmug.cpp" line="280"/>
         <source>Add SmugMug item</source>
-        <translation>Añadir un objeto Smugmug</translation>
+        <translation>新增 SmugMug 項目</translation>
     </message>
 </context>
 <context>
@@ -2248,85 +2242,85 @@ Do you want to delete it anyway?</source>
     <message>
         <location filename="../../src/smugmug.cpp" line="47"/>
         <source>Text:</source>
-        <translation>Texto:</translation>
+        <translation>文本:</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../../src/splash.cpp" line="46"/>
-        <source>Author:</source>
-        <translation>Autor:</translation>
-    </message>
-    <message>
         <location filename="../../src/main.cpp" line="109"/>
         <source>Loading Files module ...</source>
-        <translation>Cargando módulo Archivos ...</translation>
+        <translation>載入 Files 模組 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="116"/>
         <source>Loading Folders module ...</source>
-        <translation>Cargando módulo Carpetas ...</translation>
+        <translation>載入 Folders 模組 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="123"/>
         <source>Loading Flickr module ...</source>
-        <translation>Cargando módulo Flickr ...</translation>
+        <translation>載入 Flickr 模組 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="137"/>
         <source>Loading Panoramio module ...</source>
-        <translation>Cargando módulo Panoramio ...</translation>
+        <translation>載入 Panoramio 模組 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="151"/>
         <source>Loading Ipernity module ...</source>
-        <translation>Cargando módulo Ipernity ...</translation>
+        <translation>載入 Ipernity 模組 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="158"/>
         <source>Loading Photobucket module ...</source>
-        <translation>Cargando módulo Photobucket ...</translation>
+        <translation>載入 Photobucket 模組 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="165"/>
         <source>Loading Buzznet module ...</source>
-        <translation>Cargando módulo Buzznet ...</translation>
+        <translation>載入 Buzznet 模組 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="172"/>
         <source>Loading Picasa module ...</source>
-        <translation>Cargando módulo Picasa ...</translation>
+        <translation>載入 Picasa 模組 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="179"/>
         <source>Loading SmugMug module ...</source>
-        <translation>Cargando módulo Smugmug ...</translation>
+        <translation>載入 SmugMug 模組 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="193"/>
         <source>Loading Google module ...</source>
-        <translation>Cargando módulo Google ...</translation>
+        <translation>載入 Google 模組 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="200"/>
         <source>Loading Vladstudio module ...</source>
-        <translation>Cargando módulo Vladstudio ...</translation>
+        <translation>載入 Vladstudio 模組 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="207"/>
         <source>Loading deviantART module ...</source>
-        <translation>Cargando módulo deviantART ...</translation>
+        <translation>載入 deviantART 模組 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="214"/>
         <source>Loading settings ...</source>
-        <translation>Cargando configuración ...</translation>
+        <translation>載入設定 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="221"/>
         <source>Launching Wally ...</source>
-        <translation>Iniciando Wally ...</translation>
+        <translation>啟動 Wally ...</translation>
+    </message>
+    <message>
+        <location filename="../../src/splash.cpp" line="46"/>
+        <source>Author:</source>
+        <translation>作者:</translation>
     </message>
 </context>
 <context>
@@ -2334,37 +2328,37 @@ Do you want to delete it anyway?</source>
     <message>
         <location filename="../../ui/viewer.ui" line="9"/>
         <source>Right-click on photo to show actions</source>
-        <translation>Hacer clic con el botón derecho en la foto para visualizar las opciones</translation>
+        <translation>按滑鼠右鍵顯示選項</translation>
     </message>
     <message>
         <location filename="../../ui/viewer.ui" line="63"/>
         <source>Fit to window</source>
-        <translation>Tamaño ajustado</translation>
+        <translation>縮放至視窗大小</translation>
     </message>
     <message>
         <location filename="../../ui/viewer.ui" line="72"/>
         <source>Show full image</source>
-        <translation>Tamaño original</translation>
+        <translation>顯示完整圖片</translation>
     </message>
     <message>
         <location filename="../../ui/viewer.ui" line="81"/>
         <source>Zoom in</source>
-        <translation>Acercar</translation>
+        <translation>放大</translation>
     </message>
     <message>
         <location filename="../../ui/viewer.ui" line="90"/>
         <source>Zoom out</source>
-        <translation>Alejar</translation>
+        <translation>縮小</translation>
     </message>
     <message>
         <location filename="../../ui/viewer.ui" line="99"/>
         <source>Rotate clockwise</source>
-        <translation>Girar en el sentido de las agujas del reloj</translation>
+        <translation>順時針旋轉</translation>
     </message>
     <message>
         <location filename="../../ui/viewer.ui" line="108"/>
         <source>Rotate c. clockwise</source>
-        <translation>Girar en el sentido opuesto a las agujas del reloj</translation>
+        <translation>順時針旋轉角度</translation>
     </message>
 </context>
 <context>
@@ -2372,72 +2366,72 @@ Do you want to delete it anyway?</source>
     <message>
         <location filename="../../src/vladstudio.cpp" line="325"/>
         <source>All</source>
-        <translation>Todos</translation>
+        <translation>全部</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="326"/>
         <source>Abstract art</source>
-        <translation>Arte abstracto</translation>
+        <translation>抽象藝術</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="327"/>
         <source>Creatures</source>
-        <translation>Criaturas</translation>
+        <translation>生物</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="328"/>
         <source>Illustrations</source>
-        <translation>Ilustraciónes</translation>
+        <translation>插圖</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="329"/>
         <source>Photos</source>
-        <translation>Fotos</translation>
+        <translation>照片</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="334"/>
         <source>By ID</source>
-        <translation>Por ID</translation>
+        <translation>依帳號</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="335"/>
         <source>By view count</source>
-        <translation>Por número de visualizaciones</translation>
+        <translation>依瀏覽次數</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="340"/>
         <source>Ascending</source>
-        <translation>Ascendente</translation>
+        <translation>升冪</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="341"/>
         <source>Descending</source>
-        <translation>Discendente</translation>
+        <translation>降冪</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="344"/>
         <source>Category:</source>
-        <translation>Categoria</translation>
+        <translation>分類:</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="345"/>
         <source>Order:</source>
-        <translation>Orden:</translation>
+        <translation>排序:</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="346"/>
         <source>Direction:</source>
-        <translation>Dirección:</translation>
+        <translation>方向:</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="368"/>
         <source>Edit Vladstudio item</source>
-        <translation>Modificar objeto Vladstudio</translation>
+        <translation>編輯 Vladstudio 項目</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="375"/>
         <source>Add Vladstudio item</source>
-        <translation>Añadir un objeto Vladstudio</translation>
+        <translation>新增 Vladstudio 項目</translation>
     </message>
 </context>
 <context>
@@ -2445,47 +2439,47 @@ Do you want to delete it anyway?</source>
     <message>
         <location filename="../../src/vladstudio.cpp" line="42"/>
         <source>All categories</source>
-        <translation>Todas las categorias</translation>
+        <translation>所有類別</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="46"/>
         <source>Abstract art</source>
-        <translation>Arte abstracto</translation>
+        <translation>抽象藝術</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="50"/>
         <source>Creatures</source>
-        <translation>Criaturas</translation>
+        <translation>生物</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="54"/>
         <source>Illustrations</source>
-        <translation>Ilustraciónes</translation>
+        <translation>插圖</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="58"/>
         <source>Photos</source>
-        <translation>Fotos</translation>
+        <translation>圖片</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="89"/>
         <source>by Id</source>
-        <translation>Por Id</translation>
+        <translation>依帳號</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="93"/>
         <source>by view count</source>
-        <translation>Por número de visualizaciones</translation>
+        <translation>依瀏覽次數</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="105"/>
         <source>ascending</source>
-        <translation>ascendente</translation>
+        <translation>升冪</translation>
     </message>
     <message>
         <location filename="../../src/vladstudio.cpp" line="109"/>
         <source>descending</source>
-        <translation>discendente</translation>
+        <translation>降冪</translation>
     </message>
 </context>
 <context>
@@ -2493,203 +2487,203 @@ Do you want to delete it anyway?</source>
     <message>
         <location filename="../../src/wally.cpp" line="621"/>
         <source>Cancel</source>
-        <translation>Cancelar</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="623"/>
         <location filename="../../src/wally.cpp" line="2114"/>
         <source>Play</source>
-        <translation>Reproducir</translation>
+        <translation>播放</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="625"/>
         <location filename="../../src/wally.cpp" line="2094"/>
         <source>Pause</source>
-        <translation>Pausa</translation>
+        <translation>暫停</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="626"/>
         <source>Next photo</source>
-        <translation>Foto siguiente</translation>
+        <translation>下一張圖片</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="627"/>
         <source>Save photo...</source>
-        <translation>Guardar foto...</translation>
+        <translation>儲存圖片...</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="628"/>
         <source>Get EXIF info...</source>
-        <translation>Mostrar información EXIF...</translation>
+        <translation>取得 EXIF 訊息...</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="629"/>
         <source>Settings...</source>
-        <translation>Configuración...</translation>
+        <translation>設定...</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="630"/>
         <source>Explore source</source>
-        <translation>Explorar la fuente</translation>
+        <translation>瀏覽原始檔</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="631"/>
         <source>About...</source>
-        <translation>Acerca de...</translation>
+        <translation>關於...</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="632"/>
         <source>History...</source>
-        <translation>Historial...</translation>
+        <translation>歷史記錄...</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="633"/>
         <source>About Qt...</source>
-        <translation>Acerca de Qt...</translation>
+        <translation>關於 Qt...</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="634"/>
         <source>Quit</source>
-        <translation>Salir</translation>
+        <translation>退出</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="637"/>
         <source>English</source>
-        <translation>Inglés</translation>
+        <translation>英文</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="638"/>
         <source>Italian</source>
-        <translation>Italiano</translation>
+        <translation>義大利</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="639"/>
         <source>Spanish</source>
-        <translation>Español</translation>
+        <translation>西班牙</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="640"/>
         <source>German</source>
-        <translation>Alemán</translation>
+        <translation>德文</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="641"/>
         <source>French</source>
-        <translation>Francés</translation>
+        <translation>法文</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="642"/>
         <source>Russian</source>
-        <translation>Ruso</translation>
+        <translation>俄文</translation>
+    </message>
+    <message>
+        <location filename="../../src/wally.cpp" line="643"/>
+        <source>Portuguese (Brazil)</source>
+        <translation>葡萄牙（巴西）</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="644"/>
         <source>Czech</source>
-        <translation>Checo</translation>
+        <translation>捷克</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="645"/>
         <source>Polish</source>
-        <translation>Polaco</translation>
+        <translation>波蘭</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="635"/>
         <source>Languages</source>
-        <translation>Idiomas</translation>
+        <translation>語言</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="646"/>
         <source>Chinese (Simplified)</source>
-        <translation>Chino (Simplificado)</translation>
+        <translation>中國 (簡體)</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="647"/>
         <source>Chinese (Traditional)</source>
-        <translation>Chino (Tradicional)</translation>
+        <translation>中國 (繁體)</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="648"/>
         <source>Catalan</source>
-        <translation>Catalán</translation>
+        <translation>加泰隆</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="649"/>
         <source>Greek</source>
-        <translation>Griego</translation>
+        <translation>希臘</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="650"/>
         <source>Korean</source>
-        <translation>Koreano</translation>
+        <translation>韓文</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="651"/>
         <source>Hungarian</source>
-        <translation>Húngaro</translation>
+        <translation>匈牙利</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="652"/>
         <source>Danish</source>
-        <translation>Danés</translation>
+        <translation>丹麥</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="653"/>
         <source>Swedish</source>
-        <translation>Sueco</translation>
+        <translation>瑞典</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="654"/>
         <source>Turkish</source>
-        <translation>Turco</translation>
+        <translation>土耳其</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="1685"/>
         <source>Wally Error</source>
-        <translation>Error de Wally</translation>
+        <translation>Wally 錯誤</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="1685"/>
         <source>Active Desktop must be disabled</source>
-        <translation>Active Desktop debe estar desactivado</translation>
+        <translation>請禁止使用動態桌面</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="1774"/>
         <location filename="../../src/wally.cpp" line="2065"/>
         <source>by:</source>
-        <translation>Autor:</translation>
+        <translation>依:</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="1783"/>
         <source>Location:</source>
-        <translation>Ubicación:</translation>
+        <translation>地點:</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="1791"/>
         <location filename="../../src/wally.cpp" line="2070"/>
         <source>Engine:</source>
-        <translation>Módulo:</translation>
+        <translation>引擎:</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="2154"/>
         <location filename="../../src/wally.cpp" line="2157"/>
         <source>Save photo</source>
-        <translation>Guardar foto</translation>
+        <translation>儲存圖片</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="2155"/>
         <location filename="../../src/wally.cpp" line="2159"/>
         <source>Images (*.png *.xpm *.jpg)</source>
-        <translation>Imágenes (*.png *.xpm *.jpg)</translation>
+        <translation>圖片格式 (*.png *.xpm *.jpg)</translation>
     </message>
     <message>
         <location filename="../../src/wally.cpp" line="2654"/>
         <source>Right-click to show main menu</source>
-        <translation>Hacer clic con el botón derecho para visualizar menú principal</translation>
-    </message>
-    <message>
-        <location filename="../../src/wally.cpp" line="643"/>
-        <source>Portuguese (Brazil)</source>
-        <translation>Portugués (Brasil)</translation>
+        <translation>按滑鼠右鍵顯示主要功能表</translation>
     </message>
 </context>
 <context>
@@ -2697,42 +2691,42 @@ Do you want to delete it anyway?</source>
     <message>
         <location filename="../../src/yahoo.cpp" line="268"/>
         <source>All of these words</source>
-        <translation>Todas estas palabras</translation>
+        <translation>全部關鍵詞</translation>
     </message>
     <message>
         <location filename="../../src/yahoo.cpp" line="269"/>
         <source>Any of these words</source>
-        <translation>Cualquiera de estas palabras</translation>
+        <translation>任意關鍵詞</translation>
     </message>
     <message>
         <location filename="../../src/yahoo.cpp" line="272"/>
         <source>Search for:</source>
-        <translation>Buscar:</translation>
+        <translation>搜尋:</translation>
     </message>
     <message>
         <location filename="../../src/yahoo.cpp" line="277"/>
         <source>Filter content</source>
-        <translation>Filtrar el contenido</translation>
+        <translation>內容過濾</translation>
     </message>
     <message>
         <location filename="../../src/yahoo.cpp" line="297"/>
         <source>Yahoo! item</source>
-        <translation>Objeto Yahoo!</translation>
+        <translation>Yahoo! 項目</translation>
     </message>
     <message>
         <location filename="../../src/yahoo.cpp" line="298"/>
         <source>Unfiltered content can show offending or sexual explicit photos</source>
-        <translation>El contenido no filtrado puede mostrar fotos ofencivas y sexualmente explicitas</translation>
+        <translation>未過濾的內容可能會顯示冒犯或色情照片</translation>
     </message>
     <message>
         <location filename="../../src/yahoo.cpp" line="309"/>
         <source>Edit Yahoo! item</source>
-        <translation>Modificar objeto Yahoo!</translation>
+        <translation>編輯 Yahoo! 項目</translation>
     </message>
     <message>
         <location filename="../../src/yahoo.cpp" line="317"/>
         <source>Add Yahoo! item</source>
-        <translation>Añadir un objeto Yahoo!</translation>
+        <translation>新增 Yahoo! 項目</translation>
     </message>
 </context>
 <context>
@@ -2740,22 +2734,22 @@ Do you want to delete it anyway?</source>
     <message>
         <location filename="../../src/yahoo.cpp" line="56"/>
         <source>Tags:</source>
-        <translation>Etiquetas:</translation>
+        <translation>標籤:</translation>
     </message>
     <message>
         <location filename="../../src/yahoo.cpp" line="58"/>
         <source>and</source>
-        <translation>y</translation>
+        <translation>並且</translation>
     </message>
     <message>
         <location filename="../../src/yahoo.cpp" line="58"/>
         <source>or</source>
-        <translation>o</translation>
+        <translation>或者</translation>
     </message>
     <message>
         <location filename="../../src/yahoo.cpp" line="61"/>
         <source>content filtered</source>
-        <translation>contenido filtrado</translation>
+        <translation>內容過濾</translation>
     </message>
 </context>
 </TS>

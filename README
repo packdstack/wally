@@ -1,6 +1,6 @@
-﻿Wally 2.4.4
+﻿Wally 2.4.5
 
-Wally is a Qt4 wallpaper changer, using multiple sources like files, folders, FTP remote folders, Flickr, Yahoo!, Panoramio,
+Wally is a Qt4 wallpaper changer, using multiple sources like files, folders, FTP remote folders, Flickr, Panoramio,
 Ipernity, Photobucket, Buzznet, Picasa, Smugmug, Google, Vladstudio and deviantART images.
 It runs under Linux, Win32, MacOSX and OS/2, and it's available in many languages.
 
@@ -88,7 +88,8 @@ Let me give special thanks to Wally's translators:
 - Nicolas Remy, French
 - Martin Pavlík, Czech
 - Dominik Szczerba, Polish
-- 御用软件, Chinese
+- 御用软件, Chinese (Simplified)
+- 黃昇鴻, Chinese (Traditional)
 - Miquel Ràmia, Catalan
 - Θωμάς Τσάβαλος, Greek
 - 이덕희, Korean

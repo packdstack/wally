@@ -31,7 +31,7 @@
 #define DATABASE_CURRENT_VERSION 1
 #define DEFAULT_INTERVAL 2
 #define APPLICATION_NAME "Wally"
-#define APPLICATION_VERSION "2.4.4"
+#define APPLICATION_VERSION "2.4.5"
 #define RUN_PATH "run"
 #define PID_FILENAME "wally.pid"
 #define MAX_SIZE_FAILURES 20
@@ -119,6 +119,7 @@ namespace Wally
     QAction *czechLanguageAction;
     QAction *polishLanguageAction;
     QAction *chineseLanguageAction;
+    QAction *mandarinLanguageAction;
     QAction *catalanLanguageAction;
     QAction *greekLanguageAction;
     QAction *koreanLanguageAction;

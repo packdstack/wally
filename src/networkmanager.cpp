@@ -191,6 +191,14 @@ NetworkAccessManager::NetworkAccessManager(QObject *parent) :
 {
   connect(_signalMapper,SIGNAL(mapped(QObject *)),
           this,SLOT(abortReply(QObject *)));
+  connect(this,SIGNAL(sslErrors(QNetworkReply *,const QList< QSslError > &)),
+          this,SLOT(handleSslErrors(QNetworkReply *,const QList< QSslError > &)));
+}
+
+void NetworkAccessManager::handleSslErrors(QNetworkReply *reply, const QList< QSslError > &)
+{
+  if (reply)
+    reply->ignoreSslErrors();
 }
 
 void NetworkAccessManager::abortReply(QObject *object)

@@ -96,10 +96,6 @@
         <translation>cseh</translation>
     </message>
     <message>
-        <source>Chinese</source>
-        <translation>kínai</translation>
-    </message>
-    <message>
         <source>Polish</source>
         <translation>lengyel</translation>
     </message>
@@ -130,6 +126,14 @@
     <message>
         <source>Turkish</source>
         <translation>Török</translation>
+    </message>
+    <message>
+        <source>Chinese (Simplified)</source>
+        <translation>Kínai (egyszerűsített)</translation>
+    </message>
+    <message>
+        <source>Chinese (Traditional)</source>
+        <translation>Kínai (hagyományos)</translation>
     </message>
 </context>
 <context>
@@ -321,10 +325,6 @@
 </context>
 <context>
     <name>Files::SettingsWidget</name>
-    <message>
-        <source>Files</source>
-        <translation>Fájlok</translation>
-    </message>
     <message>
         <source>Select a photo</source>
         <translation>Kép választása</translation>
@@ -630,13 +630,6 @@
     <message>
         <source>active</source>
         <translation>Aktív</translation>
-    </message>
-</context>
-<context>
-    <name>Folders::SettingsWidget</name>
-    <message>
-        <source>Folders</source>
-        <translation>Mappák</translation>
     </message>
 </context>
 <context>
@@ -1792,6 +1785,10 @@ Do you want to delete it anyway?</source>
         <source>Are you sure?</source>
         <translation>Biztos benne?</translation>
     </message>
+    <message>
+        <source>Engines</source>
+        <translation>Modulok</translation>
+    </message>
 </context>
 <context>
     <name>SmugMug::DialogWidget</name>
@@ -1828,10 +1825,6 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Loading Flickr module ...</source>
         <translation>Flickr modul betöltése ...</translation>
-    </message>
-    <message>
-        <source>Loading Yahoo! module ...</source>
-        <translation>Yahoo! modul betöltése ...</translation>
     </message>
     <message>
         <source>Loading Panoramio module ...</source>
@@ -2102,10 +2095,6 @@ Do you want to delete it anyway?</source>
         <translation>lengyel</translation>
     </message>
     <message>
-        <source>Chinese</source>
-        <translation>kínai</translation>
-    </message>
-    <message>
         <source>Catalan</source>
         <translation>katalán</translation>
     </message>
@@ -2164,6 +2153,14 @@ Do you want to delete it anyway?</source>
     <message>
         <source>Turkish</source>
         <translation>Török</translation>
+    </message>
+    <message>
+        <source>Chinese (Simplified)</source>
+        <translation>Kínai (egyszerűsített)</translation>
+    </message>
+    <message>
+        <source>Chinese (Traditional)</source>
+        <translation>Kínai (hagyományos)</translation>
     </message>
 </context>
 <context>

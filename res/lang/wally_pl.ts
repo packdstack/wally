@@ -64,49 +64,54 @@
         <translation>Czeski</translation>
     </message>
     <message>
+        <location filename="../../src/about.cpp" line="74"/>
+        <source>Chinese (Simplified)</source>
+        <translation>Chiński (uproszczony)</translation>
+    </message>
+    <message>
         <location filename="../../src/about.cpp" line="76"/>
+        <source>Chinese (Traditional)</source>
+        <translation>Chiński (tradycyjny)</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="78"/>
         <source>Polish</source>
         <translation>Polski</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="78"/>
+        <location filename="../../src/about.cpp" line="80"/>
         <source>Catalan</source>
         <translation>Kataloński</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="80"/>
+        <location filename="../../src/about.cpp" line="82"/>
         <source>Greek</source>
         <translation>Grecki</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="82"/>
+        <location filename="../../src/about.cpp" line="84"/>
         <source>Korean</source>
         <translation>Koreański</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="84"/>
+        <location filename="../../src/about.cpp" line="86"/>
         <source>Hungarian</source>
         <translation>Węgierski</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="86"/>
+        <location filename="../../src/about.cpp" line="88"/>
         <source>Danish</source>
         <translation>Duński</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="88"/>
+        <location filename="../../src/about.cpp" line="90"/>
         <source>Swedish</source>
         <translation>Szwedzki</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="90"/>
+        <location filename="../../src/about.cpp" line="92"/>
         <source>Turkish</source>
         <translation>Turecki</translation>
-    </message>
-    <message>
-        <location filename="../../src/about.cpp" line="74"/>
-        <source>Chinese</source>
-        <translation>Chiński</translation>
     </message>
     <message>
         <location filename="../../ui/about.ui" line="6"/>
@@ -393,11 +398,6 @@
 </context>
 <context>
     <name>Files::SettingsWidget</name>
-    <message>
-        <location filename="../../include/files.h" line="79"/>
-        <source>Files</source>
-        <translation>Pliki</translation>
-    </message>
     <message>
         <location filename="../../src/files.cpp" line="281"/>
         <location filename="../../src/files.cpp" line="334"/>
@@ -780,14 +780,6 @@
         <location filename="../../src/folders.cpp" line="254"/>
         <source>active</source>
         <translation>aktywny</translation>
-    </message>
-</context>
-<context>
-    <name>Folders::SettingsWidget</name>
-    <message>
-        <location filename="../../include/folders.h" line="201"/>
-        <source>Folders</source>
-        <translation>Katalogi</translation>
     </message>
 </context>
 <context>
@@ -2059,7 +2051,7 @@ Czy pomimo tego usunąć?</translation>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="86"/>
-        <location filename="../../ui/settings.ui" line="221"/>
+        <location filename="../../ui/settings.ui" line="237"/>
         <source>Position:</source>
         <translation>Położenie:</translation>
     </message>
@@ -2114,117 +2106,122 @@ Czy pomimo tego usunąć?</translation>
         <translation>Wyświetl informacje na zdjęciu</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="253"/>
+        <location filename="../../ui/settings.ui" line="269"/>
         <source>View info in system tray tooltip</source>
         <translation>Wyświetl informację tooltip w pasku systemowym</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="260"/>
+        <location filename="../../ui/settings.ui" line="276"/>
         <source>Use full desktop area</source>
         <translation>Użyj całej powierzchni pulpitu</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="269"/>
+        <location filename="../../ui/settings.ui" line="285"/>
         <source>Photo has to be</source>
         <translation>Zdjęcie musi być</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="280"/>
+        <location filename="../../ui/settings.ui" line="296"/>
         <source>independent of</source>
         <translation>niezależnie od</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="285"/>
+        <location filename="../../ui/settings.ui" line="301"/>
         <source>at least 1/2 of</source>
         <translation>co najmniej 1/2 z</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="290"/>
+        <location filename="../../ui/settings.ui" line="306"/>
         <source>at least 3/4 of</source>
         <translation>co najmniej 3/4 z</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="295"/>
+        <location filename="../../ui/settings.ui" line="311"/>
         <source>bigger than</source>
         <translation>większy niż</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="303"/>
+        <location filename="../../ui/settings.ui" line="319"/>
         <source>desktop&apos;s size</source>
         <translation>rozmiar pulpitu</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="327"/>
+        <location filename="../../ui/settings.ui" line="343"/>
         <source>Don&apos;t save locally remote photos if free disk space goes below</source>
         <translation>Nie zapisuj lokalnie zdjec zdalnych, jeżeli pozostalo miejsca poniżej</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="365"/>
+        <location filename="../../ui/settings.ui" line="381"/>
         <source>Store images in history for</source>
         <translation>Zachowuj obrazy w historii przez</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="382"/>
+        <location filename="../../ui/settings.ui" line="398"/>
         <source>Clear</source>
         <translation>Wyczyść</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="518"/>
+        <location filename="../../ui/settings.ui" line="630"/>
+        <source>Engines</source>
+        <translation>Moduły</translation>
+    </message>
+    <message>
+        <location filename="../../ui/settings.ui" line="750"/>
         <source>Available modules:</source>
         <translation>Dostępne moduły:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="525"/>
+        <location filename="../../ui/settings.ui" line="757"/>
         <source>Active modules:</source>
         <translation>Aktywne moduły:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="561"/>
+        <location filename="../../ui/settings.ui" line="421"/>
         <source>Network</source>
         <translation>Sieć</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="573"/>
+        <location filename="../../ui/settings.ui" line="433"/>
         <source>Direct connection</source>
         <translation>Bezpośrednie połączenie</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="583"/>
+        <location filename="../../ui/settings.ui" line="443"/>
         <source>Proxy connection</source>
         <translation>Połączenie proxy</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="607"/>
+        <location filename="../../ui/settings.ui" line="467"/>
         <source>Use system proxy</source>
         <translation>Użyj proxy systemowe</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="617"/>
+        <location filename="../../ui/settings.ui" line="477"/>
         <source>Use custom proxy</source>
         <translation>Użyj proxy niestandardowe</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="627"/>
+        <location filename="../../ui/settings.ui" line="487"/>
         <source>Server:</source>
         <translation>Serwer:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="637"/>
+        <location filename="../../ui/settings.ui" line="497"/>
         <source>Port:</source>
         <translation>Port:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="687"/>
+        <location filename="../../ui/settings.ui" line="547"/>
         <source>Authentication</source>
         <translation>Autentyfikacja</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="702"/>
+        <location filename="../../ui/settings.ui" line="562"/>
         <source>Username:</source>
         <translation>Nazwa użytkownika:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="719"/>
+        <location filename="../../ui/settings.ui" line="579"/>
         <source>Password:</source>
         <translation>Hasło:</translation>
     </message>
@@ -2271,11 +2268,6 @@ Czy pomimo tego usunąć?</translation>
         <location filename="../../src/main.cpp" line="123"/>
         <source>Loading Flickr module ...</source>
         <translation>Ładuje moduł Flickr ...</translation>
-    </message>
-    <message>
-        <location filename="../../src/main.cpp" line="130"/>
-        <source>Loading Yahoo! module ...</source>
-        <translation>Ładuje moduł Yahoo! ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="137"/>
@@ -2500,198 +2492,203 @@ Czy pomimo tego usunąć?</translation>
 <context>
     <name>Wally::Application</name>
     <message>
-        <location filename="../../src/wally.cpp" line="611"/>
+        <location filename="../../src/wally.cpp" line="621"/>
         <source>Cancel</source>
         <translation>Przerwij</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="613"/>
-        <location filename="../../src/wally.cpp" line="2008"/>
+        <location filename="../../src/wally.cpp" line="623"/>
+        <location filename="../../src/wally.cpp" line="2114"/>
         <source>Play</source>
         <translation>Play</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="615"/>
-        <location filename="../../src/wally.cpp" line="1988"/>
+        <location filename="../../src/wally.cpp" line="625"/>
+        <location filename="../../src/wally.cpp" line="2094"/>
         <source>Pause</source>
         <translation>Pauza</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="616"/>
+        <location filename="../../src/wally.cpp" line="626"/>
         <source>Next photo</source>
         <translation>Następny obraz</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="617"/>
+        <location filename="../../src/wally.cpp" line="627"/>
         <source>Save photo...</source>
         <translation>Zapisz obraz...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="618"/>
+        <location filename="../../src/wally.cpp" line="628"/>
         <source>Get EXIF info...</source>
         <translation>Pokaż informacje EXIF...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="619"/>
+        <location filename="../../src/wally.cpp" line="629"/>
         <source>Settings...</source>
         <translation>Ustawienia...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="620"/>
+        <location filename="../../src/wally.cpp" line="630"/>
         <source>Explore source</source>
         <translation>Eksploruj źródło obrazu</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="621"/>
+        <location filename="../../src/wally.cpp" line="631"/>
         <source>About...</source>
         <translation>O programie...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="622"/>
+        <location filename="../../src/wally.cpp" line="632"/>
         <source>History...</source>
         <translation>Historia...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="623"/>
+        <location filename="../../src/wally.cpp" line="633"/>
         <source>About Qt...</source>
         <translation>O programie Qt...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="624"/>
+        <location filename="../../src/wally.cpp" line="634"/>
         <source>Quit</source>
         <translation>Wyjdź</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="627"/>
+        <location filename="../../src/wally.cpp" line="637"/>
         <source>English</source>
         <translation>Angielski</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="628"/>
+        <location filename="../../src/wally.cpp" line="638"/>
         <source>Italian</source>
         <translation>Włoski</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="629"/>
+        <location filename="../../src/wally.cpp" line="639"/>
         <source>Spanish</source>
         <translation>Hiszpański</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="630"/>
+        <location filename="../../src/wally.cpp" line="640"/>
         <source>German</source>
         <translation>Niemiecki</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="631"/>
+        <location filename="../../src/wally.cpp" line="641"/>
         <source>French</source>
         <translation>Francuski</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="632"/>
+        <location filename="../../src/wally.cpp" line="642"/>
         <source>Russian</source>
         <translation>Rosyjski</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="633"/>
+        <location filename="../../src/wally.cpp" line="643"/>
         <source>Portuguese (Brazil)</source>
         <translation>Portugalski (Brazylia)</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="634"/>
+        <location filename="../../src/wally.cpp" line="644"/>
         <source>Czech</source>
         <translation>Czeski</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="635"/>
+        <location filename="../../src/wally.cpp" line="645"/>
         <source>Polish</source>
         <translation>Polski</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="636"/>
-        <source>Chinese</source>
-        <translation>Chiński</translation>
-    </message>
-    <message>
-        <location filename="../../src/wally.cpp" line="625"/>
+        <location filename="../../src/wally.cpp" line="635"/>
         <source>Languages</source>
         <translation>Języki</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="637"/>
+        <location filename="../../src/wally.cpp" line="646"/>
+        <source>Chinese (Simplified)</source>
+        <translation>Chiński (uproszczony)</translation>
+    </message>
+    <message>
+        <location filename="../../src/wally.cpp" line="647"/>
+        <source>Chinese (Traditional)</source>
+        <translation>Chiński (tradycyjny)</translation>
+    </message>
+    <message>
+        <location filename="../../src/wally.cpp" line="648"/>
         <source>Catalan</source>
         <translation>Kataloński</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="638"/>
+        <location filename="../../src/wally.cpp" line="649"/>
         <source>Greek</source>
         <translation>Grecki</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="639"/>
+        <location filename="../../src/wally.cpp" line="650"/>
         <source>Korean</source>
         <translation>Koreański</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="640"/>
+        <location filename="../../src/wally.cpp" line="651"/>
         <source>Hungarian</source>
         <translation>Węgierski</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="641"/>
+        <location filename="../../src/wally.cpp" line="652"/>
         <source>Danish</source>
         <translation>Duński</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="642"/>
+        <location filename="../../src/wally.cpp" line="653"/>
         <source>Swedish</source>
         <translation>Szwedzki</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="643"/>
+        <location filename="../../src/wally.cpp" line="654"/>
         <source>Turkish</source>
         <translation>Turecki</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1579"/>
+        <location filename="../../src/wally.cpp" line="1685"/>
         <source>Wally Error</source>
         <translation>Błąd Wally</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1579"/>
+        <location filename="../../src/wally.cpp" line="1685"/>
         <source>Active Desktop must be disabled</source>
         <translation>Active desctop musi być wyłączony</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1668"/>
-        <location filename="../../src/wally.cpp" line="1959"/>
+        <location filename="../../src/wally.cpp" line="1774"/>
+        <location filename="../../src/wally.cpp" line="2065"/>
         <source>by:</source>
         <translation>przez:</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1677"/>
+        <location filename="../../src/wally.cpp" line="1783"/>
         <source>Location:</source>
         <translation>Lokalizacja:</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1685"/>
-        <location filename="../../src/wally.cpp" line="1964"/>
+        <location filename="../../src/wally.cpp" line="1791"/>
+        <location filename="../../src/wally.cpp" line="2070"/>
         <source>Engine:</source>
         <translation>Silnik:</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="2048"/>
-        <location filename="../../src/wally.cpp" line="2051"/>
+        <location filename="../../src/wally.cpp" line="2154"/>
+        <location filename="../../src/wally.cpp" line="2157"/>
         <source>Save photo</source>
         <translation>Zapisz zdjęcie</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="2049"/>
-        <location filename="../../src/wally.cpp" line="2053"/>
+        <location filename="../../src/wally.cpp" line="2155"/>
+        <location filename="../../src/wally.cpp" line="2159"/>
         <source>Images (*.png *.xpm *.jpg)</source>
         <translation>Obrazy (*.png *.xpm *.jpg)</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="2548"/>
+        <location filename="../../src/wally.cpp" line="2654"/>
         <source>Right-click to show main menu</source>
         <translation>Prawy przycisk żeby wyświetlić menu główne</translation>
     </message>

@@ -65,46 +65,51 @@
     </message>
     <message>
         <location filename="../../src/about.cpp" line="74"/>
-        <source>Chinese</source>
-        <translation></translation>
+        <source>Chinese (Simplified)</source>
+        <translation>중국어 (간체)</translation>
     </message>
     <message>
         <location filename="../../src/about.cpp" line="76"/>
+        <source>Chinese (Traditional)</source>
+        <translation>중국어 (번체)</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="78"/>
         <source>Polish</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="78"/>
+        <location filename="../../src/about.cpp" line="80"/>
         <source>Catalan</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="80"/>
+        <location filename="../../src/about.cpp" line="82"/>
         <source>Greek</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="82"/>
+        <location filename="../../src/about.cpp" line="84"/>
         <source>Korean</source>
         <translation>한국어</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="84"/>
+        <location filename="../../src/about.cpp" line="86"/>
         <source>Hungarian</source>
         <translation>헝가리어</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="86"/>
+        <location filename="../../src/about.cpp" line="88"/>
         <source>Danish</source>
         <translation>덴마크어</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="88"/>
+        <location filename="../../src/about.cpp" line="90"/>
         <source>Swedish</source>
         <translation>스웨덴어</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="90"/>
+        <location filename="../../src/about.cpp" line="92"/>
         <source>Turkish</source>
         <translation>터키어</translation>
     </message>
@@ -393,11 +398,6 @@
 </context>
 <context>
     <name>Files::SettingsWidget</name>
-    <message>
-        <location filename="../../include/files.h" line="79"/>
-        <source>Files</source>
-        <translation>파일</translation>
-    </message>
     <message>
         <location filename="../../src/files.cpp" line="281"/>
         <location filename="../../src/files.cpp" line="334"/>
@@ -780,14 +780,6 @@
         <location filename="../../src/folders.cpp" line="254"/>
         <source>active</source>
         <translation></translation>
-    </message>
-</context>
-<context>
-    <name>Folders::SettingsWidget</name>
-    <message>
-        <location filename="../../include/folders.h" line="201"/>
-        <source>Folders</source>
-        <translation>폴더</translation>
     </message>
 </context>
 <context>
@@ -2045,7 +2037,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="86"/>
-        <location filename="../../ui/settings.ui" line="221"/>
+        <location filename="../../ui/settings.ui" line="237"/>
         <source>Position:</source>
         <translation>위치:</translation>
     </message>
@@ -2100,117 +2092,122 @@ Do you want to delete it anyway?</source>
         <translation>사진 정보 보기</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="253"/>
+        <location filename="../../ui/settings.ui" line="269"/>
         <source>View info in system tray tooltip</source>
         <translation>시스템 알림의 툴팁으로 사진 정보 보기</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="260"/>
+        <location filename="../../ui/settings.ui" line="276"/>
         <source>Use full desktop area</source>
         <translation>전체 바탕화면 영역 사용</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="269"/>
+        <location filename="../../ui/settings.ui" line="285"/>
         <source>Photo has to be</source>
         <translation>바탕 화면 크기에 대하여</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="280"/>
+        <location filename="../../ui/settings.ui" line="296"/>
         <source>independent of</source>
         <translation>상관없는</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="285"/>
+        <location filename="../../ui/settings.ui" line="301"/>
         <source>at least 1/2 of</source>
         <translation>최소 1/2</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="290"/>
+        <location filename="../../ui/settings.ui" line="306"/>
         <source>at least 3/4 of</source>
         <translation>최소 3/4</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="295"/>
+        <location filename="../../ui/settings.ui" line="311"/>
         <source>bigger than</source>
         <translation>더 큰</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="303"/>
+        <location filename="../../ui/settings.ui" line="319"/>
         <source>desktop&apos;s size</source>
         <translation>크기의 사진</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="327"/>
+        <location filename="../../ui/settings.ui" line="343"/>
         <source>Don&apos;t save locally remote photos if free disk space goes below</source>
         <translation>다음 크기보다 남은 디스크 용량이 작으면 사진을 저장하지 않음:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="365"/>
+        <location filename="../../ui/settings.ui" line="381"/>
         <source>Store images in history for</source>
         <translation>사진 기록을 보관할 기간:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="382"/>
+        <location filename="../../ui/settings.ui" line="398"/>
         <source>Clear</source>
         <translation>삭제</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="518"/>
+        <location filename="../../ui/settings.ui" line="630"/>
+        <source>Engines</source>
+        <translation>모듈</translation>
+    </message>
+    <message>
+        <location filename="../../ui/settings.ui" line="750"/>
         <source>Available modules:</source>
         <translation>사용 가능한 모듈:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="525"/>
+        <location filename="../../ui/settings.ui" line="757"/>
         <source>Active modules:</source>
         <translation>사용 중인 모듈:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="561"/>
+        <location filename="../../ui/settings.ui" line="421"/>
         <source>Network</source>
         <translation>네트웍</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="573"/>
+        <location filename="../../ui/settings.ui" line="433"/>
         <source>Direct connection</source>
         <translation>직접 연결</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="583"/>
+        <location filename="../../ui/settings.ui" line="443"/>
         <source>Proxy connection</source>
         <translation>프록시 연결</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="607"/>
+        <location filename="../../ui/settings.ui" line="467"/>
         <source>Use system proxy</source>
         <translation>시스템 프록시 사용</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="617"/>
+        <location filename="../../ui/settings.ui" line="477"/>
         <source>Use custom proxy</source>
         <translation>프록시 직접 설정</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="627"/>
+        <location filename="../../ui/settings.ui" line="487"/>
         <source>Server:</source>
         <translation>서버:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="637"/>
+        <location filename="../../ui/settings.ui" line="497"/>
         <source>Port:</source>
         <translation>포트:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="687"/>
+        <location filename="../../ui/settings.ui" line="547"/>
         <source>Authentication</source>
         <translation>인증</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="702"/>
+        <location filename="../../ui/settings.ui" line="562"/>
         <source>Username:</source>
         <translation>계정:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="719"/>
+        <location filename="../../ui/settings.ui" line="579"/>
         <source>Password:</source>
         <translation>암호:</translation>
     </message>
@@ -2257,11 +2254,6 @@ Do you want to delete it anyway?</source>
         <location filename="../../src/main.cpp" line="123"/>
         <source>Loading Flickr module ...</source>
         <translation>Flickr 모듈 불러오는 중...</translation>
-    </message>
-    <message>
-        <location filename="../../src/main.cpp" line="130"/>
-        <source>Loading Yahoo! module ...</source>
-        <translation>Yahoo! 모듈 불러오는 중...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="137"/>
@@ -2486,198 +2478,203 @@ Do you want to delete it anyway?</source>
 <context>
     <name>Wally::Application</name>
     <message>
-        <location filename="../../src/wally.cpp" line="611"/>
+        <location filename="../../src/wally.cpp" line="621"/>
         <source>Cancel</source>
         <translation>취소</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="613"/>
-        <location filename="../../src/wally.cpp" line="2008"/>
+        <location filename="../../src/wally.cpp" line="623"/>
+        <location filename="../../src/wally.cpp" line="2114"/>
         <source>Play</source>
         <translation>재생</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="615"/>
-        <location filename="../../src/wally.cpp" line="1988"/>
+        <location filename="../../src/wally.cpp" line="625"/>
+        <location filename="../../src/wally.cpp" line="2094"/>
         <source>Pause</source>
         <translation>멈춤</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="616"/>
+        <location filename="../../src/wally.cpp" line="626"/>
         <source>Next photo</source>
         <translation>다음 사진</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="617"/>
+        <location filename="../../src/wally.cpp" line="627"/>
         <source>Save photo...</source>
         <translation>사진 저장...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="618"/>
+        <location filename="../../src/wally.cpp" line="628"/>
         <source>Get EXIF info...</source>
         <translation>EXIF 정보 보기...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="619"/>
+        <location filename="../../src/wally.cpp" line="629"/>
         <source>Settings...</source>
         <translation>설정...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="620"/>
+        <location filename="../../src/wally.cpp" line="630"/>
         <source>Explore source</source>
         <translation>원본 보기</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="621"/>
+        <location filename="../../src/wally.cpp" line="631"/>
         <source>About...</source>
         <translation>정보...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="622"/>
+        <location filename="../../src/wally.cpp" line="632"/>
         <source>History...</source>
         <translation>기록...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="623"/>
+        <location filename="../../src/wally.cpp" line="633"/>
         <source>About Qt...</source>
         <translation>Qt에 대하여...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="624"/>
+        <location filename="../../src/wally.cpp" line="634"/>
         <source>Quit</source>
         <translation>끝내기</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="625"/>
+        <location filename="../../src/wally.cpp" line="635"/>
         <source>Languages</source>
         <translation>언어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="627"/>
+        <location filename="../../src/wally.cpp" line="637"/>
         <source>English</source>
         <translation>영어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="628"/>
+        <location filename="../../src/wally.cpp" line="638"/>
         <source>Italian</source>
         <translation>이탈리아어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="629"/>
+        <location filename="../../src/wally.cpp" line="639"/>
         <source>Spanish</source>
         <translation>스페인어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="630"/>
+        <location filename="../../src/wally.cpp" line="640"/>
         <source>German</source>
         <translation>독일어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="631"/>
+        <location filename="../../src/wally.cpp" line="641"/>
         <source>French</source>
         <translation>프랑스어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="632"/>
+        <location filename="../../src/wally.cpp" line="642"/>
         <source>Russian</source>
         <translation>러시아어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="633"/>
+        <location filename="../../src/wally.cpp" line="643"/>
         <source>Portuguese (Brazil)</source>
         <translation>포르투갈어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="634"/>
+        <location filename="../../src/wally.cpp" line="644"/>
         <source>Czech</source>
         <translation>체코어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="635"/>
+        <location filename="../../src/wally.cpp" line="645"/>
         <source>Polish</source>
         <translation>폴란드어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="636"/>
-        <source>Chinese</source>
-        <translation>중국어</translation>
+        <location filename="../../src/wally.cpp" line="646"/>
+        <source>Chinese (Simplified)</source>
+        <translation>중국어 (간체)</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="637"/>
+        <location filename="../../src/wally.cpp" line="647"/>
+        <source>Chinese (Traditional)</source>
+        <translation>중국어 (번체)</translation>
+    </message>
+    <message>
+        <location filename="../../src/wally.cpp" line="648"/>
         <source>Catalan</source>
         <translation>카탈로니아어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="638"/>
+        <location filename="../../src/wally.cpp" line="649"/>
         <source>Greek</source>
         <translation>그리스어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="639"/>
+        <location filename="../../src/wally.cpp" line="650"/>
         <source>Korean</source>
         <translation>한국어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="640"/>
+        <location filename="../../src/wally.cpp" line="651"/>
         <source>Hungarian</source>
         <translation>헝가리어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="641"/>
+        <location filename="../../src/wally.cpp" line="652"/>
         <source>Danish</source>
         <translation>덴마크어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="642"/>
+        <location filename="../../src/wally.cpp" line="653"/>
         <source>Swedish</source>
         <translation>스웨덴어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="643"/>
+        <location filename="../../src/wally.cpp" line="654"/>
         <source>Turkish</source>
         <translation>터키어</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1579"/>
+        <location filename="../../src/wally.cpp" line="1685"/>
         <source>Wally Error</source>
         <translation>Wally 오류</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1579"/>
+        <location filename="../../src/wally.cpp" line="1685"/>
         <source>Active Desktop must be disabled</source>
         <translation>액티브 데스크탑이 비활성화 되어야 합니다.</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1668"/>
-        <location filename="../../src/wally.cpp" line="1959"/>
+        <location filename="../../src/wally.cpp" line="1774"/>
+        <location filename="../../src/wally.cpp" line="2065"/>
         <source>by:</source>
         <translation>올린 이:</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1677"/>
+        <location filename="../../src/wally.cpp" line="1783"/>
         <source>Location:</source>
         <translation>위치:</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1685"/>
-        <location filename="../../src/wally.cpp" line="1964"/>
+        <location filename="../../src/wally.cpp" line="1791"/>
+        <location filename="../../src/wally.cpp" line="2070"/>
         <source>Engine:</source>
         <translation>엔진:</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="2048"/>
-        <location filename="../../src/wally.cpp" line="2051"/>
+        <location filename="../../src/wally.cpp" line="2154"/>
+        <location filename="../../src/wally.cpp" line="2157"/>
         <source>Save photo</source>
         <translation>사진 저장</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="2049"/>
-        <location filename="../../src/wally.cpp" line="2053"/>
+        <location filename="../../src/wally.cpp" line="2155"/>
+        <location filename="../../src/wally.cpp" line="2159"/>
         <source>Images (*.png *.xpm *.jpg)</source>
         <translation>사진 (*.png *.xpm *.jpg)</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="2548"/>
+        <location filename="../../src/wally.cpp" line="2654"/>
         <source>Right-click to show main menu</source>
         <translation>메뉴를 보려면 항목에 오른클릭을 하세요.</translation>
     </message>

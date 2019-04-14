@@ -9,6 +9,7 @@
         <file alias="czech" >${CMAKE_CURRENT_BINARY_DIR}/wally_cz.qm</file>
         <file alias="polish" >${CMAKE_CURRENT_BINARY_DIR}/wally_pl.qm</file>
         <file alias="chinese" >${CMAKE_CURRENT_BINARY_DIR}/wally_zh_CN.qm</file>
+        <file alias="mandarin" >${CMAKE_CURRENT_BINARY_DIR}/wally_zh_TW.qm</file>
         <file alias="catalan" >${CMAKE_CURRENT_BINARY_DIR}/wally_ca.qm</file>
         <file alias="greek" >${CMAKE_CURRENT_BINARY_DIR}/wally_gr.qm</file>
         <file alias="korean" >${CMAKE_CURRENT_BINARY_DIR}/wally_kr.qm</file>

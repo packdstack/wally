@@ -250,6 +250,7 @@ namespace NetworkPrivate
 
   private slots:
     void abortReply(QObject *object);
+    void handleSslErrors(QNetworkReply *reply, const QList< QSslError > &);
 
   protected:
     QNetworkReply *createRequest(Operation op, const QNetworkRequest &req, QIODevice *outgoingData = 0);

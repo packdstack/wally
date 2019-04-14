@@ -109,7 +109,7 @@ QUrl Item::doPrepareInit(HttpEngine::Operation & /* op */)
 
 QUrl Item::doPrepareSearch(HttpEngine::Operation & /* op */)
 {
-  QUrl url("http://api.flickr.com/services/rest");
+  QUrl url("https://api.flickr.com/services/rest");
 
   url.addQueryItem("method","flickr.photos.search");
   url.addQueryItem("api_key",FLICKR_API_KEY);
@@ -161,7 +161,7 @@ bool Item::doProcessSearchResult(const QByteArray &response, int &newPagesCount)
 
 QUrl Item::prepareSizeRequest(HttpEngine::Operation & /* op */)
 {
-  QUrl url("http://api.flickr.com/services/rest");
+  QUrl url("https://api.flickr.com/services/rest");
 
   url.addQueryItem("method","flickr.photos.getSizes");
   url.addQueryItem("api_key",FLICKR_API_KEY);
@@ -266,7 +266,7 @@ QUrl Item::prepareDownload(HttpEngine::Operation & /* op */)
 
 QUrl Item::prepareInfoCollect(HttpEngine::Operation & /* op */)
 {
-  QUrl url("http://api.flickr.com/services/rest");
+  QUrl url("https://api.flickr.com/services/rest");
 
   _lastPhotoIds.insert(_photoId);
 

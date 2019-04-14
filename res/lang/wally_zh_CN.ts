@@ -49,49 +49,54 @@
         <translation>葡萄牙语（巴西）</translation>
     </message>
     <message>
+        <location filename="../../src/about.cpp" line="74"/>
+        <source>Chinese (Simplified)</source>
+        <translation>中国 (简体)</translation>
+    </message>
+    <message>
         <location filename="../../src/about.cpp" line="76"/>
+        <source>Chinese (Traditional)</source>
+        <translation>中国 (繁体)</translation>
+    </message>
+    <message>
+        <location filename="../../src/about.cpp" line="78"/>
         <source>Polish</source>
         <translation>波兰文</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="78"/>
+        <location filename="../../src/about.cpp" line="80"/>
         <source>Catalan</source>
         <translation>加泰罗尼亚语</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="80"/>
+        <location filename="../../src/about.cpp" line="82"/>
         <source>Greek</source>
         <translation>希腊</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="82"/>
+        <location filename="../../src/about.cpp" line="84"/>
         <source>Korean</source>
         <translation>韩语</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="84"/>
+        <location filename="../../src/about.cpp" line="86"/>
         <source>Hungarian</source>
         <translation>匈牙利</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="86"/>
+        <location filename="../../src/about.cpp" line="88"/>
         <source>Danish</source>
         <translation>丹麦的</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="88"/>
+        <location filename="../../src/about.cpp" line="90"/>
         <source>Swedish</source>
         <translation>瑞典语</translation>
     </message>
     <message>
-        <location filename="../../src/about.cpp" line="90"/>
+        <location filename="../../src/about.cpp" line="92"/>
         <source>Turkish</source>
         <translation>土耳其</translation>
-    </message>
-    <message>
-        <location filename="../../src/about.cpp" line="74"/>
-        <source>Chinese</source>
-        <translation>汉语</translation>
     </message>
     <message>
         <location filename="../../src/about.cpp" line="68"/>
@@ -394,11 +399,6 @@
 </context>
 <context>
     <name>Files::SettingsWidget</name>
-    <message>
-        <location filename="../../include/files.h" line="79"/>
-        <source>Files</source>
-        <translation>文件</translation>
-    </message>
     <message>
         <location filename="../../src/files.cpp" line="281"/>
         <location filename="../../src/files.cpp" line="334"/>
@@ -781,14 +781,6 @@
         <location filename="../../src/folders.cpp" line="254"/>
         <source>active</source>
         <translation>主动</translation>
-    </message>
-</context>
-<context>
-    <name>Folders::SettingsWidget</name>
-    <message>
-        <location filename="../../include/folders.h" line="201"/>
-        <source>Folders</source>
-        <translation>文件夹</translation>
     </message>
 </context>
 <context>
@@ -2052,7 +2044,7 @@ Do you want to delete it anyway?</source>
     </message>
     <message>
         <location filename="../../ui/settings.ui" line="86"/>
-        <location filename="../../ui/settings.ui" line="221"/>
+        <location filename="../../ui/settings.ui" line="237"/>
         <source>Position:</source>
         <translation>地点:</translation>
     </message>
@@ -2107,117 +2099,122 @@ Do you want to delete it anyway?</source>
         <translation>查看照片的信息</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="253"/>
+        <location filename="../../ui/settings.ui" line="269"/>
         <source>View info in system tray tooltip</source>
         <translation>在系统托盘提示查看信息</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="260"/>
+        <location filename="../../ui/settings.ui" line="276"/>
         <source>Use full desktop area</source>
         <translation>使用全部桌面区域</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="269"/>
+        <location filename="../../ui/settings.ui" line="285"/>
         <source>Photo has to be</source>
         <translation>图片必须是</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="280"/>
+        <location filename="../../ui/settings.ui" line="296"/>
         <source>independent of</source>
         <translation>独立于</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="285"/>
+        <location filename="../../ui/settings.ui" line="301"/>
         <source>at least 1/2 of</source>
         <translation>至少 1/2 于</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="290"/>
+        <location filename="../../ui/settings.ui" line="306"/>
         <source>at least 3/4 of</source>
         <translation>至少 3/4 于</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="295"/>
+        <location filename="../../ui/settings.ui" line="311"/>
         <source>bigger than</source>
         <translation>大于</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="303"/>
+        <location filename="../../ui/settings.ui" line="319"/>
         <source>desktop&apos;s size</source>
         <translation>桌面大小</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="327"/>
+        <location filename="../../ui/settings.ui" line="343"/>
         <source>Don&apos;t save locally remote photos if free disk space goes below</source>
         <translation>如果可用磁盘空间不足就不在本地保存远程照片</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="365"/>
+        <location filename="../../ui/settings.ui" line="381"/>
         <source>Store images in history for</source>
         <translation>保存历史图片</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="382"/>
+        <location filename="../../ui/settings.ui" line="398"/>
         <source>Clear</source>
         <translation>清空</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="518"/>
+        <location filename="../../ui/settings.ui" line="630"/>
+        <source>Engines</source>
+        <translation>模块</translation>
+    </message>
+    <message>
+        <location filename="../../ui/settings.ui" line="750"/>
         <source>Available modules:</source>
         <translation>可用模块:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="525"/>
+        <location filename="../../ui/settings.ui" line="757"/>
         <source>Active modules:</source>
         <translation>活动模块:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="561"/>
+        <location filename="../../ui/settings.ui" line="421"/>
         <source>Network</source>
         <translation>网络</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="573"/>
+        <location filename="../../ui/settings.ui" line="433"/>
         <source>Direct connection</source>
         <translation>直接链接</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="583"/>
+        <location filename="../../ui/settings.ui" line="443"/>
         <source>Proxy connection</source>
         <translation>代理链接</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="607"/>
+        <location filename="../../ui/settings.ui" line="467"/>
         <source>Use system proxy</source>
         <translation>使用系统代理</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="617"/>
+        <location filename="../../ui/settings.ui" line="477"/>
         <source>Use custom proxy</source>
         <translation>使用用户代理</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="627"/>
+        <location filename="../../ui/settings.ui" line="487"/>
         <source>Server:</source>
         <translation>服务器:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="637"/>
+        <location filename="../../ui/settings.ui" line="497"/>
         <source>Port:</source>
         <translation>端口:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="687"/>
+        <location filename="../../ui/settings.ui" line="547"/>
         <source>Authentication</source>
         <translation>认证</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="702"/>
+        <location filename="../../ui/settings.ui" line="562"/>
         <source>Username:</source>
         <translation>用户名:</translation>
     </message>
     <message>
-        <location filename="../../ui/settings.ui" line="719"/>
+        <location filename="../../ui/settings.ui" line="579"/>
         <source>Password:</source>
         <translation>密码:</translation>
     </message>
@@ -2264,11 +2261,6 @@ Do you want to delete it anyway?</source>
         <location filename="../../src/main.cpp" line="123"/>
         <source>Loading Flickr module ...</source>
         <translation>加载 Flickr 模块 ...</translation>
-    </message>
-    <message>
-        <location filename="../../src/main.cpp" line="130"/>
-        <source>Loading Yahoo! module ...</source>
-        <translation>加载 Yahoo! 模块 ...</translation>
     </message>
     <message>
         <location filename="../../src/main.cpp" line="137"/>
@@ -2493,198 +2485,203 @@ Do you want to delete it anyway?</source>
 <context>
     <name>Wally::Application</name>
     <message>
-        <location filename="../../src/wally.cpp" line="611"/>
+        <location filename="../../src/wally.cpp" line="621"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="613"/>
-        <location filename="../../src/wally.cpp" line="2008"/>
+        <location filename="../../src/wally.cpp" line="623"/>
+        <location filename="../../src/wally.cpp" line="2114"/>
         <source>Play</source>
         <translation>播放</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="615"/>
-        <location filename="../../src/wally.cpp" line="1988"/>
+        <location filename="../../src/wally.cpp" line="625"/>
+        <location filename="../../src/wally.cpp" line="2094"/>
         <source>Pause</source>
         <translation>暂停</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="616"/>
+        <location filename="../../src/wally.cpp" line="626"/>
         <source>Next photo</source>
         <translation>下一张图片</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="617"/>
+        <location filename="../../src/wally.cpp" line="627"/>
         <source>Save photo...</source>
         <translation>保存图片...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="618"/>
+        <location filename="../../src/wally.cpp" line="628"/>
         <source>Get EXIF info...</source>
         <translation>获取 EXIF信息...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="619"/>
+        <location filename="../../src/wally.cpp" line="629"/>
         <source>Settings...</source>
         <translation>设置...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="620"/>
+        <location filename="../../src/wally.cpp" line="630"/>
         <source>Explore source</source>
         <translation>浏览原文件</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="621"/>
+        <location filename="../../src/wally.cpp" line="631"/>
         <source>About...</source>
         <translation>关于...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="622"/>
+        <location filename="../../src/wally.cpp" line="632"/>
         <source>History...</source>
         <translation>历史记录...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="623"/>
+        <location filename="../../src/wally.cpp" line="633"/>
         <source>About Qt...</source>
         <translation>关于 Qt...</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="624"/>
+        <location filename="../../src/wally.cpp" line="634"/>
         <source>Quit</source>
         <translation>退出</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="627"/>
+        <location filename="../../src/wally.cpp" line="637"/>
         <source>English</source>
         <translation>英语</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="628"/>
+        <location filename="../../src/wally.cpp" line="638"/>
         <source>Italian</source>
         <translation>意大利语</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="629"/>
+        <location filename="../../src/wally.cpp" line="639"/>
         <source>Spanish</source>
         <translation>西班牙语</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="630"/>
+        <location filename="../../src/wally.cpp" line="640"/>
         <source>German</source>
         <translation>德语</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="631"/>
+        <location filename="../../src/wally.cpp" line="641"/>
         <source>French</source>
         <translation>法语</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="632"/>
+        <location filename="../../src/wally.cpp" line="642"/>
         <source>Russian</source>
         <translation>俄语</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="633"/>
+        <location filename="../../src/wally.cpp" line="643"/>
         <source>Portuguese (Brazil)</source>
         <translation>葡萄牙语（巴西）</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="634"/>
+        <location filename="../../src/wally.cpp" line="644"/>
         <source>Czech</source>
         <translation>捷克语</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="635"/>
+        <location filename="../../src/wally.cpp" line="645"/>
         <source>Polish</source>
         <translation>波兰文</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="636"/>
-        <source>Chinese</source>
-        <translation>汉语</translation>
-    </message>
-    <message>
-        <location filename="../../src/wally.cpp" line="625"/>
+        <location filename="../../src/wally.cpp" line="635"/>
         <source>Languages</source>
         <translation>语言</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="637"/>
+        <location filename="../../src/wally.cpp" line="646"/>
+        <source>Chinese (Simplified)</source>
+        <translation>中国 (简体)</translation>
+    </message>
+    <message>
+        <location filename="../../src/wally.cpp" line="647"/>
+        <source>Chinese (Traditional)</source>
+        <translation>中国 (繁体)</translation>
+    </message>
+    <message>
+        <location filename="../../src/wally.cpp" line="648"/>
         <source>Catalan</source>
         <translation>加泰罗尼亚语</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="638"/>
+        <location filename="../../src/wally.cpp" line="649"/>
         <source>Greek</source>
         <translation>希腊</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="639"/>
+        <location filename="../../src/wally.cpp" line="650"/>
         <source>Korean</source>
         <translation>韩语</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="640"/>
+        <location filename="../../src/wally.cpp" line="651"/>
         <source>Hungarian</source>
         <translation>匈牙利</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="641"/>
+        <location filename="../../src/wally.cpp" line="652"/>
         <source>Danish</source>
         <translation>丹麦的</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="642"/>
+        <location filename="../../src/wally.cpp" line="653"/>
         <source>Swedish</source>
         <translation>瑞典语</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="643"/>
+        <location filename="../../src/wally.cpp" line="654"/>
         <source>Turkish</source>
         <translation>土耳其</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1579"/>
+        <location filename="../../src/wally.cpp" line="1685"/>
         <source>Wally Error</source>
         <translation>Wally 错误</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1579"/>
+        <location filename="../../src/wally.cpp" line="1685"/>
         <source>Active Desktop must be disabled</source>
         <translation>请禁止使用动态桌面</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1668"/>
-        <location filename="../../src/wally.cpp" line="1959"/>
+        <location filename="../../src/wally.cpp" line="1774"/>
+        <location filename="../../src/wally.cpp" line="2065"/>
         <source>by:</source>
         <translation>通过:</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1677"/>
+        <location filename="../../src/wally.cpp" line="1783"/>
         <source>Location:</source>
         <translation>地点:</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="1685"/>
-        <location filename="../../src/wally.cpp" line="1964"/>
+        <location filename="../../src/wally.cpp" line="1791"/>
+        <location filename="../../src/wally.cpp" line="2070"/>
         <source>Engine:</source>
         <translation>引擎:</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="2048"/>
-        <location filename="../../src/wally.cpp" line="2051"/>
+        <location filename="../../src/wally.cpp" line="2154"/>
+        <location filename="../../src/wally.cpp" line="2157"/>
         <source>Save photo</source>
         <translation>保存图片</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="2049"/>
-        <location filename="../../src/wally.cpp" line="2053"/>
+        <location filename="../../src/wally.cpp" line="2155"/>
+        <location filename="../../src/wally.cpp" line="2159"/>
         <source>Images (*.png *.xpm *.jpg)</source>
         <translation>图片格式 (*.png *.xpm *.jpg)</translation>
     </message>
     <message>
-        <location filename="../../src/wally.cpp" line="2548"/>
+        <location filename="../../src/wally.cpp" line="2654"/>
         <source>Right-click to show main menu</source>
         <translation>右键单击显示主菜单</translation>
     </message>

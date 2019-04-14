@@ -1,3 +1,9 @@
+Version 2.4.5
+- Modified Flickr API for HTTPS support
+- Removed Yahoo! engine, no longer active
+- Fixed XFCE 4.10 support
+- Added Linux custom wallpaper change script support
+
 Version 2.4.4
 - Fixed gconftool-2 arguments bug
 - Settings window layout is now suitable for netbook screens

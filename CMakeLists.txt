@@ -44,8 +44,8 @@ set( WALLY_SRCS
        include/folders.h
        src/flickr.cpp
        include/flickr.h
-       src/yahoo.cpp
-       include/yahoo.h
+#       src/yahoo.cpp
+#       include/yahoo.h
        src/panoramio.cpp
        include/panoramio.h
 #       src/pikeo.cpp
@@ -98,7 +98,7 @@ set( WALLY_MOC_HDRS
        include/files.h
        include/folders.h
        include/flickr.h
-       include/yahoo.h
+#       include/yahoo.h
        include/panoramio.h
 #       include/pikeo.h
        include/photobucket.h
@@ -148,6 +148,7 @@ set( WALLY_TS
        res/lang/wally_pt_BR.ts
        res/lang/wally_ru.ts
        res/lang/wally_zh_CN.ts
+       res/lang/wally_zh_TW.ts
        res/lang/wally_hu.ts
        res/lang/wally_dk.ts
        res/lang/wally_se.ts
@@ -247,10 +248,8 @@ elseif( WIN32 )
                       WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} )
   set( WALLY_SRCS ${WALLY_SRCS} ${CMAKE_CURRENT_BINARY_DIR}/wally_rc.o )
 
-  set( CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -enable-auto-import" )
-
   if( STATIC )
-    set( CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static" )
+    set( CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static-libstdc++ -static-libgcc" )
     find_library( QT_GIF_PLUGIN qgif PATHS ${QT_PLUGINS_DIR} PATH_SUFFIXES imageformats )
     find_library( QT_ICO_PLUGIN qico PATHS ${QT_PLUGINS_DIR} PATH_SUFFIXES imageformats )
     find_library( QT_JPEG_PLUGIN qjpeg PATHS ${QT_PLUGINS_DIR} PATH_SUFFIXES imageformats )
@@ -265,7 +264,7 @@ elseif( WIN32 )
   if( STATIC )
    target_link_libraries( ${PROGNAME} ${QT_GIF_PLUGIN} ${QT_ICO_PLUGIN} ${QT_JPEG_PLUGIN}
                                       ${QT_MNG_PLUGIN} ${QT_SVG_PLUGIN} ${QT_TIFF_PLUGIN} ${QT_SQLITE_PLUGIN}
-                                      ${QT_LIBRARIES} ${EXIF_LIBRARIES} -lshlwapi -lversion -lshell32 )
+                                      ${QT_LIBRARIES} libexif.a -lm -lshlwapi -lversion -lshell32 )
   else( STATIC )
     target_link_libraries( ${PROGNAME} ${QT_LIBRARIES} ${EXIF_LIBRARIES} )
   endif( STATIC )
@@ -284,7 +283,7 @@ else( APPLE )
   set( PROGNAME wally )
 
   add_executable( ${PROGNAME} ${WALLY_QMS} ${WALLY_SRCS} ${WALLY_MOC_SRCS} ${WALLY_IMAGES_RC_SRCS} ${WALLY_LANGUAGES_RC_SRCS} ${WALLY_UI_HDRS} )
-  target_link_libraries( ${PROGNAME} ${QT_LIBRARIES} ${EXIF_LIBRARIES} )
+  target_link_libraries( ${PROGNAME} ${QT_LIBRARIES} ${EXIF_LIBRARIES} X11 )
   install( TARGETS ${PROGNAME} DESTINATION /usr/bin )
 
   if( CMAKE_BUILD_TYPE STREQUAL Release )

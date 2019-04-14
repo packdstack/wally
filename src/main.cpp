@@ -36,15 +36,15 @@
 #include "files.h"
 #include "folders.h"
 #include "flickr.h"
-#include "yahoo.h"
+// #include "yahoo.h"
 #include "panoramio.h"
-#include "pikeo.h"
+// #include "pikeo.h"
 #include "ipernity.h"
 #include "photobucket.h"
 #include "buzznet.h"
 #include "picasa.h"
 #include "smugmug.h"
-#include "bing.h"
+// #include "bing.h"
 #include "google.h"
 #include "vladstudio.h"
 #include "deviantart.h"
@@ -126,12 +126,12 @@ int main(int argc, char **argv)
         if (!splashScreenDisabled)
           splash->repaint();
 
-        if (!splashScreenDisabled)
-          splash->showMessage(QCoreApplication::translate("SplashScreen","Loading Yahoo! module ..."),
-                              Qt::AlignRight | Qt::AlignBottom,Qt::white);
-        wally->addEngine(new Yahoo::Core(wally->tempStorageDir()));
-        if (!splashScreenDisabled)
-          splash->repaint();
+//        if (!splashScreenDisabled)
+//          splash->showMessage(QCoreApplication::translate("SplashScreen","Loading Yahoo! module ..."),
+//                              Qt::AlignRight | Qt::AlignBottom,Qt::white);
+//        wally->addEngine(new Yahoo::Core(wally->tempStorageDir()));
+//        if (!splashScreenDisabled)
+//          splash->repaint();
 
         if (!splashScreenDisabled)
           splash->showMessage(QCoreApplication::translate("SplashScreen","Loading Panoramio module ..."),

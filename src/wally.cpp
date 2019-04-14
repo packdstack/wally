@@ -218,6 +218,10 @@ void Application::loadLanguages()
   translators[QLocale(QLocale::Chinese,QLocale::China).name()] = translator;
 
   translator = new QTranslator(this);
+  translator->load(":/languages/mandarin");
+  translators[QLocale(QLocale::Vietnamese,QLocale::China).name()] = translator;
+
+  translator = new QTranslator(this);
   translator->load(":/languages/catalan");
   translators[QLocale(QLocale::Catalan,QLocale::Andorra).name()] = translator;
 
@@ -556,6 +560,12 @@ void Application::setupActions()
                                     QLocale(QLocale::Chinese,QLocale::China).name());
   connect(chineseLanguageAction,SIGNAL(triggered()),languagesSignalMapper,SLOT(map()));
 
+  mandarinLanguageAction = new QAction(QIcon(":/images/china"),QString(),this);
+  languagesActions << mandarinLanguageAction;
+  languagesSignalMapper->setMapping(mandarinLanguageAction,
+                                    QLocale(QLocale::Vietnamese,QLocale::China).name());
+  connect(mandarinLanguageAction,SIGNAL(triggered()),languagesSignalMapper,SLOT(map()));
+
   catalanLanguageAction = new QAction(QIcon(":/images/catalonia"),QString(),this);
   languagesActions << catalanLanguageAction;
   languagesSignalMapper->setMapping(catalanLanguageAction,
@@ -633,7 +643,8 @@ void Application::retranslateMenu()
   brazilianPortugueseLanguageAction->setText(tr("Portuguese (Brazil)"));
   czechLanguageAction->setText(tr("Czech"));
   polishLanguageAction->setText(tr("Polish"));
-  chineseLanguageAction->setText(tr("Chinese"));
+  chineseLanguageAction->setText(tr("Chinese (Simplified)"));
+  mandarinLanguageAction->setText(tr("Chinese (Traditional)"));
   catalanLanguageAction->setText(tr("Catalan"));
   greekLanguageAction->setText(tr("Greek"));
   koreanLanguageAction->setText(tr("Korean"));
@@ -692,6 +703,7 @@ void Application::setupMenu()
   languagesMenu->addAction(czechLanguageAction);
   languagesMenu->addAction(polishLanguageAction);
   languagesMenu->addAction(chineseLanguageAction);
+  languagesMenu->addAction(mandarinLanguageAction);
   languagesMenu->addAction(catalanLanguageAction);
   languagesMenu->addAction(greekLanguageAction);
   languagesMenu->addAction(koreanLanguageAction);
@@ -1476,96 +1488,189 @@ void Application::showPhotoOnScreen()
   try
   {
   #ifdef Q_WS_X11
-    switch (windowManager)
+    if (QFileInfo(QDir(_tempStorageDir),"scripts/wally.sh").exists())
     {
-      case wmKDE4:
-        {
+      newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
+      QProcess::execute(QFileInfo(QDir(_tempStorageDir),"scripts/wally.sh").absoluteFilePath(),
+                        QStringList() << newFile.absoluteFilePath());
+    }
+    else
+      switch (windowManager)
+      {
+        case wmKDE4:
+          {
+            newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
+
+            QDBusMessage message = QDBusMessage::createMethodCall("com.BeCrux.WallyPlugin",
+                                                                  "/WallyPlugin",
+                                                                  QString(),
+                                                                  "setWallpaper");
+            message.setArguments(QList< QVariant >() << newFile.absoluteFilePath());
+            QDBusConnection::sessionBus().send(message);
+          }
+          break;
+
+        case wmKDE3:
+          newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
+          args << "kdesktop" << "KBackgroundIface" << "setWallpaper"
+               << newFile.absoluteFilePath() << "1";
+          QProcess::execute("dcop",args);
+          break;
+
+        case wmGnomeShell:
+        case wmGnome:
+          newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
+          args << "--type" << "bool" << "--set" <<
+                  "/desktop/gnome/background/draw_background" << "true";
+          QProcess::execute("gconftool-2",args);
+          args.clear();
+          args << "--type" << "string" << "--set" <<
+                  "/desktop/gnome/background/picture_options" << "centered";
+          QProcess::execute("gconftool-2",args);
+          args.clear();
+          args << "--type" << "string" << "--set" <<
+                  "/desktop/gnome/background/picture_filename" << newFile.absoluteFilePath();
+          QProcess::execute("gconftool-2",args);
+
+          args.clear();
+          newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
+          args << "set" << "org.gnome.desktop.background" << "draw-background" << "true";
+          QProcess::execute("gsettings",args);
+          args.clear();
+          args << "set" << "org.gnome.desktop.background" << "picture-options" << "centered";
+          QProcess::execute("gsettings",args);
+          args.clear();
+          args << "set" << "org.gnome.desktop.background" << "picture-uri" << QUrl::fromLocalFile(newFile.absoluteFilePath()).toString();
+          QProcess::execute("gsettings",args);
+          break;
+
+        case wmXfce:
           newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
 
-          QDBusMessage message = QDBusMessage::createMethodCall("com.BeCrux.WallyPlugin",
-                                                                "/WallyPlugin",
-                                                                QString(),
-                                                                "setWallpaper");
-          message.setArguments(QList< QVariant >() << newFile.absoluteFilePath());
-          QDBusConnection::sessionBus().send(message);
-        }
-        break;
+          {
+            QProcess p;
 
-      case wmKDE3:
-        newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
-        args << "kdesktop" << "KBackgroundIface" << "setWallpaper"
-             << newFile.absoluteFilePath() << "1";
-        QProcess::execute("dcop",args);
-        break;
+            p.start("xfconf-query",QStringList() << "-c" << "xfce4-desktop" << "-p" << "/backdrop" << "-lv",QIODevice::ReadOnly);
+            p.waitForFinished();
 
-      case wmGnomeShell:
-      case wmGnome:
-        newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
-        args << "--type" << "bool" << "--set" <<
-                "/desktop/gnome/background/draw_background" << "true";
-        QProcess::execute("gconftool-2",args);
-        args.clear();
-        args << "--type" << "string" << "--set" <<
-                "/desktop/gnome/background/picture_options" << "centered";
-        QProcess::execute("gconftool-2",args);
-        args.clear();
-        args << "--type" << "string" << "--set" <<
-                "/desktop/gnome/background/picture_filename" << newFile.absoluteFilePath();
-        QProcess::execute("gconftool-2",args);
+            QStringList monitors;
+            QStringList workspaces;
 
-        args.clear();
-        newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
-        args << "set" << "org.gnome.desktop.background" << "draw-background" << "true";
-        QProcess::execute("gsettings",args);
-        args.clear();
-        args << "set" << "org.gnome.desktop.background" << "picture-options" << "centered";
-        QProcess::execute("gsettings",args);
-        args.clear();
-        args << "set" << "org.gnome.desktop.background" << "picture-uri" << QUrl::fromLocalFile(newFile.absoluteFilePath()).toString();
-        QProcess::execute("gsettings",args);
-        break;
+            if (p.exitStatus() == QProcess::NormalExit)
+            {
+              QTextStream r(&p);
+              QString line;
 
-      case wmXfce:
-        newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
-        textFile.setFileName(QDir::homePath() + "/.config/xfce4/desktop/backdrops.list");
-        textFile.open(QIODevice::WriteOnly);
-        textStream.setDevice(&textFile);
+              while (!(line = r.readLine()).isNull())
+                if (line.contains("image-path"))
+                {
+                  QFileInfo fi(line.section(" ",0,0));
+                  monitors << fi.path();
+                }
+                else if (line.contains("last-image"))
+                {
+                  QFileInfo fi(line.section(" ",0,0));
+                  workspaces << fi.path();
+                }
+            }
 
-        textStream << "# xfce backdrop list" << endl;
-        textStream << newFile.absoluteFilePath() << endl;
-        textFile.close();
+            if (!monitors.isEmpty() || !workspaces.isEmpty())
+            {
+              QStringListIterator mIter(monitors);
+              while (mIter.hasNext())
+              {
+                QString ms(mIter.next());
+                QProcess::execute("xfconf-query",QStringList() << "-c"
+                                                               << "xfce4-desktop"
+                                                               << "-p"
+                                                               << QString("%1/image-show").arg(ms)
+                                                               << "-s"
+                                                               << "true");
 
-        args << "--reload";
-        QProcess::execute("xfdesktop",args);
-        break;
+                QProcess::execute("xfconf-query",QStringList() << "-c"
+                                                               << "xfce4-desktop"
+                                                               << "-p"
+                                                               << QString("%1/image-style").arg(ms)
+                                                               << "-s"
+                                                               << "1");
 
-      case wmFluxbox:
-        newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
-        args << "-c" << newFile.absoluteFilePath();
-        QProcess::execute("fbsetbg",args);
-        break;
+                QProcess::execute("xfconf-query",QStringList() << "-c"
+                                                               << "xfce4-desktop"
+                                                               << "-p"
+                                                               << QString("%1/image-path").arg(ms)
+                                                               << "-s"
+                                                               << newFile.absoluteFilePath());
+              }
 
-      case wmFVWM:
-        newFile = adaptPhoto(currentFile.absoluteFilePath(),"XPM",currentPhotoInfo);
-        args << newFile.absoluteFilePath();
-        QProcess::execute("fvwm-root",args);
-        break;
+              QStringListIterator wIter(workspaces);
+              while (wIter.hasNext())
+              {
+                QString ws(wIter.next());
+                QProcess::execute("xfconf-query",QStringList() << "-c"
+                                                               << "xfce4-desktop"
+                                                               << "-p"
+                                                               << QString("%1/color-style").arg(ws)
+                                                               << "-s"
+                                                               << "3");
 
-      case wmBlackbox:
-        newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
-        args << "-center" << newFile.absoluteFilePath();
-        QProcess::execute("bsetbg",args);
-        break;
+                QProcess::execute("xfconf-query",QStringList() << "-c"
+                                                               << "xfce4-desktop"
+                                                               << "-p"
+                                                               << QString("%1/image-style").arg(ws)
+                                                               << "-s"
+                                                               << "1");
 
-      case wmWindowMaker:
-        newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
-        args << "-e" << newFile.absoluteFilePath();
-        QProcess::execute("wmsetbg",args);
-        break;
+                QProcess::execute("xfconf-query",QStringList() << "-c"
+                                                               << "xfce4-desktop"
+                                                               << "-p"
+                                                               << QString("%1/last-image").arg(ws)
+                                                               << "-s"
+                                                               << newFile.absoluteFilePath());
+              }
+            }
+            else
+            {
+              textFile.setFileName(QDir::homePath() + "/.config/xfce4/desktop/backdrops.list");
+              textFile.open(QIODevice::WriteOnly);
+              textStream.setDevice(&textFile);
 
-      default:
-        break;
-    }
+              textStream << "# xfce backdrop list" << endl;
+              textStream << newFile.absoluteFilePath() << endl;
+              textFile.close();
+
+              args << "--reload";
+              QProcess::execute("xfdesktop",args);
+            }
+          }
+          break;
+
+        case wmFluxbox:
+          newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
+          args << "-c" << newFile.absoluteFilePath();
+          QProcess::execute("fbsetbg",args);
+          break;
+
+        case wmFVWM:
+          newFile = adaptPhoto(currentFile.absoluteFilePath(),"XPM",currentPhotoInfo);
+          args << newFile.absoluteFilePath();
+          QProcess::execute("fvwm-root",args);
+          break;
+
+        case wmBlackbox:
+          newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
+          args << "-center" << newFile.absoluteFilePath();
+          QProcess::execute("bsetbg",args);
+          break;
+
+        case wmWindowMaker:
+          newFile = adaptPhoto(currentFile.absoluteFilePath(),"PNG",currentPhotoInfo);
+          args << "-e" << newFile.absoluteFilePath();
+          QProcess::execute("wmsetbg",args);
+          break;
+
+        default:
+          break;
+      }
   #endif
 
   #ifdef Q_WS_WIN
@@ -1626,7 +1731,7 @@ void Application::showPhotoOnScreen()
     if (QSysInfo::MacintoshVersion == QSysInfo::MV_10_6)
     {
       scriptText << "tell application \"System Events\"" << endl;
-	    scriptText << "set picture of every desktop to POSIX file \"" << newFile.absoluteFilePath() << "\"" << endl;
+      scriptText << "set picture of every desktop to POSIX file \"" << newFile.absoluteFilePath() << "\"" << endl;
       scriptText << "end tell" << endl;
     }
     else
